@@ -9,6 +9,7 @@ class Search extends Component {
   render() {
     return (
       <Container>
+        
         <Card>
           <FlipCart />
         </Card>

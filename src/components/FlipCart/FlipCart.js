@@ -5,9 +5,9 @@ import insta from './instagram.png';
 import linkedIn from './LinkedIn.png';
 import github from './github.png';
 
-export const FlipCart = ({ fluid, children }) =>
-<div className="flex-container">
-
+const FlipCart = () =>(
+<div>
+<div className="flex-container1">
   <div className="flip-box">
     <div className="flip-box-inner">
       <div className="flip-box-front">
@@ -64,5 +64,8 @@ export const FlipCart = ({ fluid, children }) =>
   </div>
 
 </div>
+</div>
+);
 
-  export default FlipCart;
+
+export default FlipCart;

@@ -6,7 +6,7 @@ const card = (props) => (
     <div>
       <h3 className="card-title text-center flow-text title">{props.title}</h3>
     </div>
-    <div className="">
+    <div className="card-body">
       { props.children }
     </div>
   </div>

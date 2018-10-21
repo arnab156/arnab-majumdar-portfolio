@@ -49,11 +49,12 @@
     text-align: center;
 
   }
-  .flex-container {
+  .flex-container1 {
     display: flex;
     /* justify-content: center; */
   }
   .thumbnail{
     width:40px;
+    height:40px;
     margin: 0px 10px;
   }
