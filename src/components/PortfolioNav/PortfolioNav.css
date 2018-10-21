@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    background-color:rgb(237, 110, 115);
+    text-align: justify;
+    align-content: center;
+
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    flex: 100%;
+    width:40%;
+    text-align: center;
+    align-content: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.overflow{
+    display: flex;
+}
