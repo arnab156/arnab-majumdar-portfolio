@@ -9,24 +9,40 @@ class Search extends Component {
   render() {
     return (
       <Container>
-        
         <Card>
           <FlipCart />
         </Card>
 
         <Card title="Contact">
-
-          <Link to={`/home/contact`} role="button" className="btn btn-red-color">
+          <Link
+            to={`/home/contact`}
+            role="button"
+            className="btn btn-red-color"
+          >
             See More
           </Link>{" "}
-          <Link to="/home" role="button" className="waves-effect waves-teal btn-flat">
+          <Link
+            to="/home"
+            role="button"
+            className="waves-effect waves-teal btn-flat"
+          >
             Less
           </Link>
-          
           <Route exact path={`/home/contact`} component={Contact} />
-          
-
         </Card>
+
+        {/* <Card title="Contact">
+          <div className="switch">
+            <label>
+              See more
+              <input type="checkbox" />              
+                <span className="lever" />
+              less
+              
+              
+            </label>
+          </div>
+        </Card> */}
       </Container>
     );
   }

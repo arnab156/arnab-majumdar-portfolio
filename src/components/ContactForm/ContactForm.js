@@ -1,12 +1,13 @@
 import React from "react";
+import "./contact.css";
 
 class NameForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: "",
-      address: "",
+      fullname: "",
       phone: "",
+      email: "",
       message: ""
     };
 
@@ -16,25 +17,27 @@ class NameForm extends React.Component {
 
   handleChange(event) {
     const target = event.target;
-    const name = target.name;
-    const address = target.address;
+    const fullname = target.fullname;
+    const email = target.email;
     const phone = target.phone;
     const message = target.message;
 
     this.setState({
-      name: name,
-      address: address,
+      fullname: fullname,
+      email: email,
       phone: phone,
       message: message
     });
   }
 
   handleSubmit(event) {
+    
+    console.log(event);
     alert(
       "your name: " +
-        this.state.name +
-        "  your address: " +
-        this.state.address +
+        this.state.fullname +
+        "  your email: " +
+        this.state.email +
         "  your comment: " +
         this.state.message
     );
@@ -48,15 +51,16 @@ class NameForm extends React.Component {
         <form className="col s12" onSubmit={this.handleSubmit}>
           <div className="row">
             <div className="input-field col s6">
+            
               <input
                 id="icon_prefix"
                 type="text"
                 className="validate"
-                name="name"
-                value={this.state.name}
+                name="fullname"
+                value={this.state.fullname}
                 onChange={this.handleChange}
               />
-              <label for="icon_prefix">First Name</label>
+              <label htmlFor="icon_prefix">Full Name</label>
             </div>
 
             <div className="input-field col s6">
@@ -68,18 +72,23 @@ class NameForm extends React.Component {
                 value={this.state.phone}
                 onChange={this.handleChange}
               />
-              <label for="icon_telephone">Phone Number</label>
+              <label htmlFor="icon_telephone">Phone Number</label>
             </div>
             <div className="input-field col s6">
               <input
-                id="icon_address"
-                type="text"
+                id="icon_email"
+                type="email"
                 className="validate"
-                name="address"
-                value={this.state.address}
+                name="email"
+                value={this.state.email}
                 onChange={this.handleChange}
               />
-              <label for="icon_address">Address</label>
+              <label htmlFor="icon_email">Email</label>
+              <span
+                className="helper-text"
+                data-error="wrong"
+                data-success="right"
+              />
             </div>
 
             <div className="input-field col s12">
@@ -90,10 +99,15 @@ class NameForm extends React.Component {
                 value={this.state.message}
                 onChange={this.handleChange}
               />
-              <label for="textarea1">Message</label>
+              <label htmlFor="textarea1">Message</label>
             </div>
             <div className="input-field col s12">
-              <input type="submit" value="Submit" />
+              <input
+                type="submit"
+                value="Submit"
+                className=" btn btn-red-color"
+              />
+              
             </div>
           </div>
         </form>

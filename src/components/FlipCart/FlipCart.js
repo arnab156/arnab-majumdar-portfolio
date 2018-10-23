@@ -34,15 +34,14 @@ const FlipCart = () =>(
      
             <ul >
               <li> HTML5/CSS3</li>
-              <li> JavaScript</li>
+              <li> JavaScript/JQuery</li>
               <li> Bootstrap, Materialize</li>
-              <li> JQuery</li>
               <li> Nodejs, Handlebar, Express</li>
               <li> Firebase, MySQL, MongoDB</li>
-              <li> React, Sequelizejs</li>
-              <li> Trello, Github</li>
-              <li> Atomic Design, Scrum, Python</li>
+              <li> React, Sequelizejs, Mongoose</li>
+              <li> Trello, Github,Scrum</li>
               <li> Adobe Creative Suite </li>
+              <li> Entrepreneurial, Creative </li>
             </ul>
         
       
