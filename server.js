@@ -21,6 +21,26 @@ app.use(routes);
 // mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactscraping");
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/arnab_contacts", { useNewUrlParser: true });
 
+
+var db = require("./models");
+
+db.Contacts.create(
+  {name: "Arnab Majumdar" }, 
+  {email : "arnab156@gmail.com"},
+  {phone : "401-871-377"},
+  {message : "this is a dummy data"}
+  )
+  .then(function(dbUser) {
+    console.log(dbUser);
+  })
+  .catch(function(err) {
+    console.log(err.message);
+  });
+
+
+
+
+
 // Start the API server
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
