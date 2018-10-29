@@ -48,13 +48,13 @@ const FlipCart = () =>(
       </div>
       <div className="flip-box-back" >
         <h2 >Social</h2>
-        <a href="https://www.linkedin.com/in/arnab156/" title="Go to LinkedIn"> 
-          <img src={linkedIn} alt="LinkedIn Link" className="thumbnail"/></a>  
+        <a href="https://www.linkedin.com/in/arnab156/" title="Go to LinkedIn" target="_blank" rel="noopener noreferrer"> 
+          <img src={linkedIn} alt="LinkedIn Link" className="thumbnail" /></a>  
         
-        <a href="https://www.instagram.com/amonticon/" title="Go to instagram" > 
-            <img src={insta} alt="Insta Link" className="thumbnail"/></a> 
+        <a href="https://www.instagram.com/amonticon/" title="Go to instagram" target="_blank" rel="noopener noreferrer"> 
+            <img src={insta} alt="Insta Link" className="thumbnail" /></a> 
         
-        <a href="https://github.com/arnab156/" title="Go to instagram" > 
+        <a href="https://github.com/arnab156/" title="Go to instagram" target="_blank" rel="noopener noreferrer"> 
           <img src={github} alt="github Link" className="thumbnail"  /></a>
       <br></br><br></br><br></br>
       <p>Gallup Strength: <b> Futuristic,  Ideation,  Command,  Intellection,  Input</b></p>

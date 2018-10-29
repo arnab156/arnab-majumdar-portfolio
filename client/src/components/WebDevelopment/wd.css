@@ -4,3 +4,12 @@
   transform: rotateY(-2deg) rotateX(-2deg) scale(0.99);
   transition: transform 0.55s ease-out;
 }
+
+.text-color-main {
+  color: #99001C;
+}
+
+.frameStyle{
+  width: 50%;
+  height: 300px;
+}
