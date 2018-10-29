@@ -1,8 +1,4 @@
 import React from "react";
-// import ReactDOM from "react-dom";
-// import Coverflow from "react-coverflow";
-// import { StyleRoot } from "radium";
-
 import "./Fashion.css";
 
 import project from "./Images/moc_2.png";
@@ -13,26 +9,44 @@ import PurpleWomens from "./Images/Purple Line/womens.jpg";
 import TowerBlack1 from "./Images/Tower Black/1.jpg";
 import TowerBlack2 from "./Images/Tower Black/2.jpg";
 import TowerBlack3 from "./Images/Tower Black/3.jpg";
-import TowerBlack4 from "./Images/Tower Black/4.jpg"
-import TowerBlack5 from "./Images/Tower Black/5.jpg"
-import TowerBlack6 from "./Images/Tower Black/6.jpg"
+import TowerBlack4 from "./Images/Tower Black/4.jpg";
+import TowerBlack5 from "./Images/Tower Black/5.jpg";
+import TowerBlack6 from "./Images/Tower Black/6.jpg";
 // import PurpleShorts from "./Images/Purple Line/Shorts.jpg";
+import ATT from "./Images/att.png";
+import SAMSUNG from "./Images/Samsung.png";
+import ATT2 from "./Images/att1.jpg";
+
+import EOI1 from "./Images/EOI/1.jpg";
+import EOI2 from "./Images/EOI/2.jpg";
+import EOI3 from "./Images/EOI/3.jpg";
+// import EOI4 from "./Images/EOI/6.jpg";
+import EOI5 from "./Images/EOI/7.jpg";
+import EOI6 from "./Images/EOI/8.jpg";
+
+const pStyle = {
+  color: "rgb(133, 47, 214)"
+};
+
+const aStyle = {
+  width: "100%"
+};
 
 export const Fashion = () => (
   <div>
-    <div class="row">
-      <div class="col s6 m6">
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light pixfix">
-            <img class="activator" src={project} alt="alt" />
+    <div className="row">
+      <div className="col s6 m6 movement">
+        <div className="card">
+          <div className="card-image waves-effect waves-block waves-light pixfix">
+            <img className="activator" src={project} alt="alt" />
           </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">
+          <div className="card-content">
+            <span className="card-title activator grey-text text-darken-4">
               Co-founder - madeofchicago.com
             </span>
           </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">
+          <div className="card-reveal">
+            <span className="card-title grey-text text-darken-4">
               MadeofChicago.com
             </span>
             <p>
@@ -51,28 +65,31 @@ export const Fashion = () => (
         </div>
       </div>
 
-      <div class="col s6 m6">
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light pixfix">
-            <img class="activator" src={project3} alt="alt" />
+      <div className="col s6 m6 movement">
+        <div className="card">
+          <div className="card-image waves-effect waves-block waves-light pixfix">
+            <img className="activator" src={project3} alt="alt" />
           </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">
-              Retail Experience
+          <div className="card-content">
+            <span className="card-title activator grey-text text-darken-4">
+              Hi-Tech Retail Experience
             </span>
           </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">
+          <div className="card-reveal">
+            <span className="card-title grey-text text-darken-4">
               Design, Product Development & Operations
             </span>
-            <h2>ROLES</h2>
-            <p>Co-Founder, Entrepreneur</p>
+            <h2>Project highlights:</h2>
+            <p>SBA link</p>
           </div>
         </div>
       </div>
 
       <div className="col s12 l12 movement">
-        <h3 className="header center storyTitle">Purple Line</h3>
+        <h3 className="header center storyTitle" style={pStyle}>
+          {" "}
+          Purple Line
+        </h3>
         <div className="row">
           <div className="col s4 m4">
             <div className="card">
@@ -127,17 +144,17 @@ export const Fashion = () => (
         <h3 className="header center storyTitle">Tower Black</h3>
         <div className="row">
           <div className="col s4 m4">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src={TowerBlack1} alt="alt" />
+            <div className="card">
+              <div className="card-image waves-effect waves-block waves-light">
+                <img className="activator" src={TowerBlack1} alt="alt" />
               </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4">
                   Activewear T-Shirt
                 </span>
               </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">
+              <div className="card-reveal">
+                <span className="card-title grey-text text-darken-4">
                   MadeofChicago.com
                 </span>
                 <p>
@@ -158,17 +175,17 @@ export const Fashion = () => (
           </div>
 
           <div className="col s4 m4">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src={TowerBlack2} alt="alt" />
+            <div className="card">
+              <div className="card-image waves-effect waves-block waves-light">
+                <img className="activator" src={TowerBlack2} alt="alt" />
               </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4">
                   Women's Active Bra
                 </span>
               </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">
+              <div className="card-reveal">
+                <span className="card-title grey-text text-darken-4">
                   MadeofChicago.com
                 </span>
                 <p>
@@ -189,17 +206,17 @@ export const Fashion = () => (
           </div>
 
           <div className="col s4 m4">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src={TowerBlack3} alt="alt" />
+            <div className="card">
+              <div className="card-image waves-effect waves-block waves-light">
+                <img className="activator" src={TowerBlack3} alt="alt" />
               </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4">
                   Women's Active Bra
                 </span>
               </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">
+              <div className="card-reveal">
+                <span className="card-title grey-text text-darken-4">
                   MadeofChicago.com
                 </span>
                 <p>
@@ -219,24 +236,24 @@ export const Fashion = () => (
             </div>
           </div>
 
-                    <div className="col s4 m4">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src={TowerBlack4} alt="alt" />
+          <div className="col s4 m4">
+            <div className="card">
+              <div className="card-image waves-effect waves-block waves-light">
+                <img className="activator" src={TowerBlack4} alt="alt" />
               </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4">
                   Activewear T-Shirt
                 </span>
               </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">
+              <div className="card-reveal">
+                <span className="card-title grey-text text-darken-4">
                   MadeofChicago.com
                 </span>
                 <p>
                   "A Chicago-Inspired, Chicago-Designed active wear fashion
                   brand reinforcing what Chicago is made of: A city of
-                  skyscrapers, modernity, and design."
+                  skyscrapers, cmodernity, and design."
                 </p>
                 <h5>Roles:</h5>
                 <p>
@@ -250,18 +267,18 @@ export const Fashion = () => (
             </div>
           </div>
 
-                    <div className="col s4 m4">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src={TowerBlack5} alt="alt" />
+          <div className="col s4 m4">
+            <div className="card">
+              <div className="card-image waves-effect waves-block waves-light">
+                <img className="activator" src={TowerBlack5} alt="alt" />
               </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4">
                   Activewear T-Shirt
                 </span>
               </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">
+              <div className="card-reveal">
+                <span className="card-title grey-text text-darken-4">
                   MadeofChicago.com
                 </span>
                 <p>
@@ -281,18 +298,18 @@ export const Fashion = () => (
             </div>
           </div>
 
-                    <div className="col s4 m4">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src={TowerBlack6} alt="alt" />
+          <div className="col s4 m4">
+            <div className="card">
+              <div className="card-image waves-effect waves-block waves-light">
+                <img className="activator" src={TowerBlack6} alt="alt" />
               </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4">
                   Activewear T-Shirt
                 </span>
               </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">
+              <div className="card-reveal">
+                <span className="card-title grey-text text-darken-4">
                   MadeofChicago.com
                 </span>
                 <p>
@@ -311,8 +328,54 @@ export const Fashion = () => (
               </div>
             </div>
           </div>
+        </div>        
+      </div>
+    </div>
 
-
+     <div className="row" ><hr /> </div>
+    
+    <div className="row">
+      <h3 className="header center storyTitle">AT&T Samsung Fashion Project</h3>
+      <div className="col s12 m12 movement">
+        <div className="col s6 m6 movement ">
+          <img src={ATT} alt="alt" />
+        </div>
+        <div className="col s6 m6 movement  ">
+          <img src={SAMSUNG} alt="alt" />
+        </div>
+        <div className="col s5 m5 movement center">
+          <img src={ATT2} alt="alt" style={aStyle} />
+        </div>
+        <div className="col s7 m7 movement center">
+          <p>Project Description </p>
+        </div>
+      </div>
+    </div>
+    <div className="row" ><hr /> </div>
+    <div className="row">
+      <h3 className="header center storyTitle">
+        Eye on India Sew Sari Project
+      </h3>
+      <div className="col s12 m12 movement center">
+        <p>Project Description: Explain the concept of Eye on India</p>
+        <div className="col s4 m4 movement ">
+          <img src={EOI1} alt="alt" />
+        </div>
+        <div className="col s4 m4 movement  ">
+          <img src={EOI2} alt="alt" />
+        </div>
+        <div className="col s4 m4 movement center">
+          <img src={EOI3} alt="alt" />
+        </div>
+        <div className="col s1 m1 movement center" />
+        <div className="col s6 m6 movement center">
+          <img src={EOI5} alt="alt" />
+        </div>
+        <div className="col s3 m3 movement center">
+          <img src={EOI6} alt="alt" />
+          {/* <div className="col s3 m3 movement center">
+        
+        </div> */}
         </div>
       </div>
     </div>
