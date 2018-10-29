@@ -13,3 +13,13 @@
   width: 50%;
   height: 300px;
 }
+
+.frameStyle2{
+  width: 100%;
+  height: 300px;
+}
+
+.storyTitle{
+    font-family: 'Faster One', cursive;
+    color: #99001C;
+}
