@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 3001;
-// const PORT =  3001;
+var db = require("./models");
 
 
 // Define middleware here
@@ -22,7 +22,7 @@ app.use(routes);
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/arnab_contacts", { useNewUrlParser: true });
 
 
-var db = require("./models");
+
 
 // db.Contacts.create(
 //   {name: "Arnab Majumdar" }, 
