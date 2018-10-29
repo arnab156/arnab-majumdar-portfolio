@@ -24,18 +24,18 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/arnab_contacts"
 
 var db = require("./models");
 
-db.Contacts.create(
-  {name: "Arnab Majumdar" }, 
-  {email : "arnab156@gmail.com"},
-  {phone : "401-871-377"},
-  {message : "this is a dummy data"}
-  )
-  .then(function(dbUser) {
-    console.log(dbUser);
-  })
-  .catch(function(err) {
-    console.log(err.message);
-  });
+// db.Contacts.create(
+//   {name: "Arnab Majumdar" }, 
+//   {email : "arnab156@gmail.com"},
+//   {phone : "401-871-377"},
+//   {message : "this is a dummy data"}
+//   )
+//   .then(function(dbUser) {
+//     console.log(dbUser);
+//   })
+//   .catch(function(err) {
+//     console.log(err.message);
+//   });
 
 
 
