@@ -3,15 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-    "start:prod": "node server.js",
-    "start:dev": "concurrently \"node --ignore 'client/*'\" \"npm run client\"",
-    "client": "cd client && npm run start",
-    "seed": "node scripts/seedDB.js",
-    "install": "cd client && yarn install",
-    "build": "cd client && npm run build && npm install yarn",
-    "heroku-postbuild": "npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && yarn install --production && yarn run build"
   },
+
   "repository": "https://github.com/arnab156/arnab-majumdar-portfolio.git",
   "author": "arnab majumdar <arnab156@gmail.com>",
   "license": "MIT",
