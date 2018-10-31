@@ -126,7 +126,7 @@ const MoreWebProjects = () => (
         <div className="card horizontal">
           <div className="card-stacked">
             <div className="card-content">
-              <h4 className="header text-color-main">Crytal Collector Game!</h4>
+              <h4 className="header text-color-main">Crystal Collector Game!</h4>
 
               <p>
                 This game app was made using JavaScript. In this app:
