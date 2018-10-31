@@ -13,6 +13,8 @@ import TowerBlack4 from "./Images/Tower Black/4.jpg";
 import TowerBlack5 from "./Images/Tower Black/5.jpg";
 import TowerBlack6 from "./Images/Tower Black/6.jpg";
 import TowerBlack7 from "./Images/Tower Black/7.jpg";
+import TowerBlack8 from "./Images/Tower Black/8.jpg";
+import TowerBlack9 from "./Images/Tower Black/9.jpg";
 // import PurpleShorts from "./Images/Purple Line/Shorts.jpg";
 import ATT from "./Images/att.png";
 import SAMSUNG from "./Images/Samsung.png";
@@ -80,17 +82,19 @@ export const Fashion = () => (
             <span className="card-title grey-text text-darken-4">
               Design, Product Development & Operations
             </span>
-            <h2>
-              <a
-                href="https://www.youtube.com/watch?v=7buva0ungXo&feature=youtu.be"
-                title="Go to yt"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                See Video Feature
-              </a>
-            </h2>
+        
+            <ul>
+              <li><a href="https://www.youtube.com/watch?v=7buva0ungXo&feature=youtu.be" title="Go to yt" target="_blank" rel="noopener noreferrer">
+              Video Feature: BACP</a></li>
+              <li><a href="https://www.youtube.com/watch?v=X4f_J6u6izY&feature=youtu.be" title="Made of Chicago" target="_blank" rel="noopener noreferrer">
+                Video: Made of Chicago Story!</a></li>
+                <li><a href="http://www.windycitymediagroup.com/lgbt/Coming-to-a-vending-machine-near-you-Activewear/61310.html" title="Windy City Times" target="_blank" rel="noopener noreferrer">
+                Feature: Windy City Times</a></li>
+            </ul>
+              
+
+              {/*  */}
+           
           </div>
         </div>
       </div>
@@ -140,7 +144,7 @@ export const Fashion = () => (
             <div className="card">
               <div className="card-image">
                 <img src={PurpleWomens} alt="Purple Womens" />
-                <span className="card-title">T-Shirt</span>
+                <span className="card-title">Sports Bra</span>
               </div>
               <div className="card-content">
                 <p>
@@ -152,12 +156,9 @@ export const Fashion = () => (
             </div>
           </div>
         </div>
+      </div>
 
-
-        </div>
-
-        <div className="col s12 l12 movement">
-
+      <div className="col s12 l12 movement">
         <h3 className="header center storyTitle">Tower Black</h3>
         <p className="center">
           {" "}
@@ -182,10 +183,7 @@ export const Fashion = () => (
                 <span className="card-title grey-text text-darken-4">
                   Click here to close
                 </span>
-                <h4>
-                  "..tower black collection is inspired by modern chicago
-                  architecture & it's architects."
-                </h4>
+                <img className="activator" src={TowerBlack8} alt="blue mesh" />
               </div>
             </div>
           </div>
@@ -226,9 +224,7 @@ export const Fashion = () => (
                 <span className="card-title grey-text text-darken-4">
                   Click here to close
                 </span>
-                <p className="center">Tank comes in another Blue Mesh version as well!</p>
                 <img className="activator" src={TowerBlack7} alt="blue mesh" />
-                {/* TowerBlack7 */}
               </div>
             </div>
           </div>
@@ -247,19 +243,8 @@ export const Fashion = () => (
                 <span className="card-title grey-text text-darken-4">
                   Click here to close
                 </span>
-                <p>
-                  "A Chicago-Inspired, Chicago-Designed active wear fashion
-                  brand reinforcing what Chicago is made of: A city of
-                  skyscrapers, cmodernity, and design."
-                </p>
-                <h5>Roles:</h5>
-                <p>
-                  My role included setting up the business, procure funding
-                  through SBA, design, product development and vendor
-                  developemnt. Besides these, I also shared responsibility of
-                  managing the 55" smart vending operations at Block37 and
-                  Landmark Century Mall, Chicago.
-                </p>
+                <a href="https://www.madeofchicago.com" title="Made of Chicago website" target="_blank" rel="noopener noreferrer">
+                Visit MadeofChicago.com</a>
               </div>
             </div>
           </div>
@@ -278,19 +263,7 @@ export const Fashion = () => (
                 <span className="card-title grey-text text-darken-4">
                   Click here to close
                 </span>
-                <p>
-                  "A Chicago-Inspired, Chicago-Designed active wear fashion
-                  brand reinforcing what Chicago is made of: A city of
-                  skyscrapers, modernity, and design."
-                </p>
-                <h5>Roles:</h5>
-                <p>
-                  My role included setting up the business, procure funding
-                  through SBA, design, product development and vendor
-                  developemnt. Besides these, I also shared responsibility of
-                  managing the 55" smart vending operations at Block37 and
-                  Landmark Century Mall, Chicago.
-                </p>
+                <img className="activator" src={TowerBlack9} alt="alt" />
               </div>
             </div>
           </div>
@@ -309,19 +282,10 @@ export const Fashion = () => (
                 <span className="card-title grey-text text-darken-4">
                   Click here to close
                 </span>
-                <p>
-                  "A Chicago-Inspired, Chicago-Designed active wear fashion
-                  brand reinforcing what Chicago is made of: A city of
-                  skyscrapers, modernity, and design."
-                </p>
-                <h5>Roles:</h5>
-                <p>
-                  My role included setting up the business, procure funding
-                  through SBA, design, product development and vendor
-                  developemnt. Besides these, I also shared responsibility of
-                  managing the 55" smart vending operations at Block37 and
-                  Landmark Century Mall, Chicago.
-                </p>
+
+                <a href="https://www.youtube.com/watch?v=4pIj63PCCcQ" title="Made of Chicago Tower Black" target="_blank" rel="noopener noreferrer">
+                Video: Tower Black Inspiration!</a>
+                {/*  */}
               </div>
             </div>
           </div>
@@ -335,18 +299,28 @@ export const Fashion = () => (
 
     <div className="row">
       <h3 className="header center storyTitle">AT&T Samsung Fashion Project</h3>
-      <div className="col s12 m12 movement">
-        <div className="col s6 m6 movement ">
+      <div className="col s12 m12 ">
+        <div className="col s6 m6  ">
           <img src={ATT} alt="alt" />
         </div>
-        <div className="col s6 m6 movement  ">
+        <div className="col s6 m6   ">
           <img src={SAMSUNG} alt="alt" />
         </div>
-        <div className="col s5 m5 movement center">
+        <div className="col s5 m5  center">
           <img src={ATT2} alt="alt" style={aStyle} />
         </div>
-        <div className="col s7 m7 movement center">
-          <p>Project Description </p>
+        <div className="col s7 m7  center">
+        <br/><br/>
+          <p className="col s1 m1" />
+          <p className="col s10 m10">
+            AT&T Samsung fashion & technology project was built to create a symbiotic
+            interaction between use of technology, design pedagogy and
+            corporate-academia interaction to shape America's future retailers and
+            designers. I lead a team of 10 designers to create unique designs using
+            Samsung Galaxy Note phones/technologies and the final designs were exhibited at AT&T's
+            Michigan Avenue Flagship store for a month. Almost a million and a
+            half people walk by the store that month.
+          </p>
         </div>
       </div>
     </div>
@@ -358,7 +332,17 @@ export const Fashion = () => (
         Eye on India Sew Sari Project
       </h3>
       <div className="col s12 m12 movement center">
-        <p>Project Description: Explain the concept of Eye on India</p>
+        <p className="col s1 m1" />
+        <p className="col s10 m10">
+          Eye on India Sari Project intended to create an interaction between
+          fashion, photography, and sustainbality resulting in a net increase of
+          audiences 100 times over past years at Eye on India event. This innovative
+          art, fashion, and design project explores and redefines what it means
+          to be an Indian and an American. This annual project focused on building
+          inter-cultural interaction while increasing awareness of re-purposing
+          and sustainability. This project has been exhibited at Bridgeport Art
+          Center and also at Willis Tower.
+        </p>
         <div className="col s4 m4 movement ">
           <img src={EOI1} alt="alt" />
         </div>

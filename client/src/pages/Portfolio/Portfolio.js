@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Container from "../../components/Container/Container";
-import Card from "../../components/Card/card";
+// import Card from "../../components/Card/card";
 import PortfolioNav from "../../components/PortfolioNav/PortfolioNav";
-import { Link, Route } from "react-router-dom";
-import Contact from "../Contact/Contact";
+// import { Link, Route } from "react-router-dom";
+// import Contact from "../Contact/Contact";
 
 class Portfolio extends Component {
   render() {
@@ -11,7 +11,7 @@ class Portfolio extends Component {
       <Container>
         <PortfolioNav button1="Web" button2="Fashion" button3="Paint" />
 
-        <Card title="Contact">
+        {/* <Card title="Contact">
           <Link to="/portfolio/contact" role="button" className="btn btn-red-color">
           See More
           </Link>{" "}
@@ -21,7 +21,7 @@ class Portfolio extends Component {
           </Link>
         
           <Route exact path="/portfolio/contact" component={Contact} />
-        </Card>
+        </Card> */}
       </Container>
     );
   }

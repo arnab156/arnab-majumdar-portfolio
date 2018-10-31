@@ -1,38 +1,52 @@
 import React from "react";
-import './FlipCart.css';
-import profileimage from './profilepic.jpg';
-import insta from './instagram.png';
-import linkedIn from './LinkedIn.png';
-import github from './github.png';
+import "./FlipCart.css";
+import profileimage from "./profilepic.jpg";
+import insta from "./instagram.png";
+import linkedIn from "./LinkedIn.png";
+import github from "./github.png";
 
-const FlipCart = () =>(
-<div>
-<div className="flex-container1">
-  <div className="flip-box">
-    <div className="flip-box-inner">
-      <div className="flip-box-front">
-        <h2>About Me</h2>
-        <img id="profilePic" src={profileimage} alt = "profileimage"/>
+const FlipCart = () => (
+  <div>
+    <div className="flex-container1">
+      <div className="flip-box">
+        <div className="flip-box-inner">
+          <div className="flip-box-front">
+            <h2>About Me</h2>
+            <img id="profilePic" src={profileimage} alt="profileimage" />
+          </div>
+          <div className="flip-box-back">
+            <h2>About Me</h2>
+            <div className="row">
+            <p className="col s2 m2  center"/>
+              <p className="col s8 m8  center">
+                I am a full stack web developer who is detailed oriented,
+                fast-paced, and creative. In my previous experiences in fashion
+                retail, global sourcing, academia, and in a start-up, I have
+                excelled in problem-solving, multi-tasking, and more
+                importantly, learned valuable professional and life lessons.
+                <br/><br/>
+                Gallup Strength:{" "}<b> Futuristic, Ideation, Command, Intellection, Input</b>
+
+                <ul>
+                  <li> Cat Parent</li>
+                  <li> Design Enthusiast</li>
+                  <li> He/Him/His</li>
+                </ul>
+              </p>
+                
+              
+
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="flip-box-back" >
-        <h2 >About Me</h2>
-        <p>I am a full stack web developer who is detailed oriented, fast-paced, and creative. In my previous experiences in fashion retail, global sourcing, academia, and in a start-up, I have excelled in problem-solving, multi-tasking, and more importantly, learned valuable professional and life lessons.</p>
 
-       <p>  I am a self-starter and believe in self-learning for continuous development. I am also a natural leader, having managed the careers of many students in the past. I am interested in working in companies that are future-oriented and are global in perspective. </p>
-       <p> I am proficient in many languages such as English, Hindi, and Bengali. Career aside, I enjoy philosophies, learning about various cultures, and play some tennis or ping pong. I volunteer my time in various social and environmental justice opportunities and my dream is to create a sanctuary for elephants one day. </p>
-      </div>
-    </div>
-  </div>
+      <div className="flip-box">
+        <div className="flip-box-inner">
+          <div className="flip-box-front">
+            <h2>Skills</h2>
 
-
-
-  <div className="flip-box">
-    <div className="flip-box-inner">
-      <div className="flip-box-front">
-        <h2>SKILLS</h2>
-        
-     
-            <ul >
+            <ul>
               <li> HTML5/CSS3</li>
               <li> JavaScript/JQuery</li>
               <li> Bootstrap, Materialize</li>
@@ -43,28 +57,44 @@ const FlipCart = () =>(
               <li> Adobe Creative Suite </li>
               <li> Entrepreneurial, Creative </li>
             </ul>
-        
-      
-      </div>
-      <div className="flip-box-back" >
-        <h2 >Social</h2>
-        <a href="https://www.linkedin.com/in/arnab156/" title="Go to LinkedIn" target="_blank" rel="noopener noreferrer"> 
-          <img src={linkedIn} alt="LinkedIn Link" className="thumbnail" /></a>  
-        
-        <a href="https://www.instagram.com/amonticon/" title="Go to instagram" target="_blank" rel="noopener noreferrer"> 
-            <img src={insta} alt="Insta Link" className="thumbnail" /></a> 
-        
-        <a href="https://github.com/arnab156/" title="Go to instagram" target="_blank" rel="noopener noreferrer"> 
-          <img src={github} alt="github Link" className="thumbnail"  /></a>
-      <br></br><br></br><br></br>
-      <p>Gallup Strength: <b> Futuristic,  Ideation,  Command,  Intellection,  Input</b></p>
+          </div>
+          <div className="flip-box-back">
+            <h2>Social</h2>
+            <a
+              href="https://www.linkedin.com/in/arnab156/"
+              title="Go to LinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linkedIn} alt="LinkedIn Link" className="thumbnail" />
+            </a>
+
+            <a
+              href="https://www.instagram.com/amonticon/"
+              title="Go to instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={insta} alt="Insta Link" className="thumbnail" />
+            </a>
+
+            <a
+              href="https://github.com/arnab156/"
+              title="Go to instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={github} alt="github Link" className="thumbnail" />
+            </a>
+            <br />
+            <br />
+            <br />
+            <p>Human Languages: English, Hindi, Bangla</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
-</div>
-</div>
 );
-
 
 export default FlipCart;
