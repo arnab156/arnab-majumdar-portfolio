@@ -31,18 +31,13 @@ class Search extends Component {
           <Route exact path={`/home/contact`} component={Contact} />
         </Card>
 
-        {/* <Card title="Contact">
-          <div className="switch">
-            <label>
-              See more
-              <input type="checkbox" />              
-                <span className="lever" />
-              less
-              
-              
-            </label>
-          </div>
-        </Card> */}
+
+
+
+
+
+
+
       </Container>
     );
   }

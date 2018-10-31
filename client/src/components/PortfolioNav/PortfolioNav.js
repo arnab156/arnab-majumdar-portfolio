@@ -14,14 +14,10 @@ const PortNav = props => (
       <Link to={`/portfolio/paint`} role="button" id="paint11"> {props.button3}</Link>{" "}
     </div>
 
-    {/* <div className="overflow"> */}
-    
-        <Route  exact path={`/portfolio/webdevelopment`} component={WebProject} />
-        <Route  exact path={`/portfolio/fashion`} component={Fashion} />
-        <Route  exact path={`/portfolio/paint`} component={Paint} />
+      <Route  path={`/portfolio/webdevelopment`} component={WebProject} />
+      <Route  exact path={`/portfolio/fashion`} component={Fashion} />
+      <Route  exact path={`/portfolio/paint`} component={Paint} />
       
-    {/* </div> */}
-
   </div>
 );
 

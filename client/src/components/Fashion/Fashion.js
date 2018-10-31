@@ -12,6 +12,7 @@ import TowerBlack3 from "./Images/Tower Black/3.jpg";
 import TowerBlack4 from "./Images/Tower Black/4.jpg";
 import TowerBlack5 from "./Images/Tower Black/5.jpg";
 import TowerBlack6 from "./Images/Tower Black/6.jpg";
+import TowerBlack7 from "./Images/Tower Black/7.jpg";
 // import PurpleShorts from "./Images/Purple Line/Shorts.jpg";
 import ATT from "./Images/att.png";
 import SAMSUNG from "./Images/Samsung.png";
@@ -79,13 +80,22 @@ export const Fashion = () => (
             <span className="card-title grey-text text-darken-4">
               Design, Product Development & Operations
             </span>
-            <h2>Project highlights:</h2>
-            <p>SBA link</p>
+            <h2>
+              <a
+                href="https://www.youtube.com/watch?v=7buva0ungXo&feature=youtu.be"
+                title="Go to yt"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                See Video Feature
+              </a>
+            </h2>
           </div>
         </div>
       </div>
 
-      <div className="col s12 l12 movement">
+      <div className="col s12 l12">
         <h3 className="header center storyTitle" style={pStyle}>
           {" "}
           Purple Line
@@ -94,15 +104,16 @@ export const Fashion = () => (
           <div className="col s4 m4">
             <div className="card">
               <div className="card-image">
-                <img src={PurpleT} alt="painting1" />
+                <img src={PurpleT} alt="Purple T Shirt" />
                 <span className="card-title">T-Shirt</span>
               </div>
               <div className="card-content">
                 <p>
-                  I am a very simple card. I am good at containing small bits of
-                  information. I am convenient because I require little markup
-                  to use effectively.
+                  Inspired from the Could Gate, the Purple line imitates the
+                  mercury like texture of the monument built by a person of
+                  Indian origin.
                 </p>
+                <br />
               </div>
             </div>
           </div>
@@ -110,16 +121,17 @@ export const Fashion = () => (
           <div className="col s4 m4">
             <div className="card">
               <div className="card-image">
-                <img src={PurpleTank} alt="painting1" />
+                <img src={PurpleTank} alt="Purple Tank" />
                 <span className="card-title">Active Tank</span>
               </div>
 
               <div className="card-content">
-                <p>
-                  I am a very simple card. I am good at containing small bits of
-                  information. I am convenient because I require little markup
-                  to use effectively.
-                </p>
+                <p>All Purple Lines are made with:</p>
+                <ol>
+                  <li> Sweat Wicking Fabric </li>
+                  <li> 4-way Stretch Fabric </li>
+                  <li> High Quality Flatlock Seaming </li>
+                </ol>
               </div>
             </div>
           </div>
@@ -127,49 +139,53 @@ export const Fashion = () => (
           <div className="col s4 m4">
             <div className="card">
               <div className="card-image">
-                <img src={PurpleWomens} alt="painting1" />
+                <img src={PurpleWomens} alt="Purple Womens" />
                 <span className="card-title">T-Shirt</span>
               </div>
               <div className="card-content">
                 <p>
-                  I am a very simple card. I am good at containing small bits of
-                  information. I am convenient because I require little markup
-                  to use effectively.
+                  The Purple Line also takes inspiration from the curvilinear
+                  form of the beloved “Chicago Bean.”
                 </p>
+                <br /> <br />
               </div>
             </div>
           </div>
         </div>
 
+
+        </div>
+
+        <div className="col s12 l12 movement">
+
         <h3 className="header center storyTitle">Tower Black</h3>
+        <p className="center">
+          {" "}
+          Click on each image to see more about the collection!
+        </p>
         <div className="row">
           <div className="col s4 m4">
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" src={TowerBlack1} alt="alt" />
+                <img
+                  className="activator"
+                  src={TowerBlack1}
+                  alt="tower black sports brat"
+                />
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">
-                  Activewear T-Shirt
+                  Activewear Sports Bra
                 </span>
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">
-                  MadeofChicago.com
+                  Click here to close
                 </span>
-                <p>
-                  "A Chicago-Inspired, Chicago-Designed active wear fashion
-                  brand reinforcing what Chicago is made of: A city of
-                  skyscrapers, modernity, and design."
-                </p>
-                <h5>Roles:</h5>
-                <p>
-                  My role included setting up the business, procure funding
-                  through SBA, design, product development and vendor
-                  developemnt. Besides these, I also shared responsibility of
-                  managing the 55" smart vending operations at Block37 and
-                  Landmark Century Mall, Chicago.
-                </p>
+                <h4>
+                  "..tower black collection is inspired by modern chicago
+                  architecture & it's architects."
+                </h4>
               </div>
             </div>
           </div>
@@ -181,26 +197,17 @@ export const Fashion = () => (
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">
-                  Women's Active Bra
+                  Women's Active Tights
                 </span>
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">
-                  MadeofChicago.com
+                  Click here to close
                 </span>
-                <p>
-                  "A Chicago-Inspired, Chicago-Designed active wear fashion
-                  brand reinforcing what Chicago is made of: A city of
-                  skyscrapers, modernity, and design."
-                </p>
-                <h5>Roles:</h5>
-                <p>
-                  My role included setting up the business, procure funding
-                  through SBA, design, product development and vendor
-                  developemnt. Besides these, I also shared responsibility of
-                  managing the 55" smart vending operations at Block37 and
-                  Landmark Century Mall, Chicago.
-                </p>
+                <h4>
+                  "..tower black collection is inspired by modern chicago
+                  architecture & it's architects."
+                </h4>
               </div>
             </div>
           </div>
@@ -208,30 +215,20 @@ export const Fashion = () => (
           <div className="col s4 m4">
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" src={TowerBlack3} alt="alt" />
+                <img className="activator" src={TowerBlack3} alt="flex tank" />
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">
-                  Women's Active Bra
+                  Men's Flex Tank
                 </span>
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">
-                  MadeofChicago.com
+                  Click here to close
                 </span>
-                <p>
-                  "A Chicago-Inspired, Chicago-Designed active wear fashion
-                  brand reinforcing what Chicago is made of: A city of
-                  skyscrapers, modernity, and design."
-                </p>
-                <h5>Roles:</h5>
-                <p>
-                  My role included setting up the business, procure funding
-                  through SBA, design, product development and vendor
-                  developemnt. Besides these, I also shared responsibility of
-                  managing the 55" smart vending operations at Block37 and
-                  Landmark Century Mall, Chicago.
-                </p>
+                <p className="center">Tank comes in another Blue Mesh version as well!</p>
+                <img className="activator" src={TowerBlack7} alt="blue mesh" />
+                {/* TowerBlack7 */}
               </div>
             </div>
           </div>
@@ -248,7 +245,7 @@ export const Fashion = () => (
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">
-                  MadeofChicago.com
+                  Click here to close
                 </span>
                 <p>
                   "A Chicago-Inspired, Chicago-Designed active wear fashion
@@ -279,7 +276,7 @@ export const Fashion = () => (
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">
-                  MadeofChicago.com
+                  Click here to close
                 </span>
                 <p>
                   "A Chicago-Inspired, Chicago-Designed active wear fashion
@@ -310,7 +307,7 @@ export const Fashion = () => (
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">
-                  MadeofChicago.com
+                  Click here to close
                 </span>
                 <p>
                   "A Chicago-Inspired, Chicago-Designed active wear fashion
@@ -328,12 +325,14 @@ export const Fashion = () => (
               </div>
             </div>
           </div>
-        </div>        
+        </div>
       </div>
     </div>
 
-     <div className="row" ><hr /> </div>
-    
+    <div className="row">
+      <hr />{" "}
+    </div>
+
     <div className="row">
       <h3 className="header center storyTitle">AT&T Samsung Fashion Project</h3>
       <div className="col s12 m12 movement">
@@ -351,7 +350,9 @@ export const Fashion = () => (
         </div>
       </div>
     </div>
-    <div className="row" ><hr /> </div>
+    <div className="row">
+      <hr />{" "}
+    </div>
     <div className="row">
       <h3 className="header center storyTitle">
         Eye on India Sew Sari Project

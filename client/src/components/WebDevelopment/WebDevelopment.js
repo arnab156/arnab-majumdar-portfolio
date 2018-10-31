@@ -1,7 +1,26 @@
 import React from "react";
 import "./wd.css";
+import reactLogo from "./Images/reactlogo.png";
+import Card from "../Card/card";
+import { Link, Route } from "react-router-dom";
+import MorePortfolio from "./MorePortfolio";
 
-export const WebProjects = () => (
+const pStyle = {
+  background: "#B22222",
+  height: "200px",
+  color: "white"
+};
+const qStyle = {
+  background: "#FF8C00",
+  font: "Faster One",
+  height: "200px"
+};
+const rStyle = {
+  background: "#FFD700",
+  height: "200px"
+};
+
+const WebProjects = () => (
   <div>
     <div className="row">
       <div className="col s12 m7 movement">
@@ -172,10 +191,72 @@ export const WebProjects = () => (
       </div>
     </div>
 
-    <br />
-    <hr />
-    <br />
+    <div className="row">
+      <div className="col s4 m4 center" style={pStyle}>
+        <br />
+        <br />
+        <h6> Clicky React Game</h6>
+        <div className="card-action">
+          <a
+            href="https://arnab156.github.io/my-game/ "
+            // className="text-color-main"
+            title="Go to Clicky Game!"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            See Deployed Website{" "}
+          </a>
+          <br />
+          <a
+            href="https://github.com/arnab156/my-game.git"
+            // className="text-color-main"
+            title="Go to Click game!"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            See Github{" "}
+          </a>
+        </div>
+      </div>
 
+      <div className="col s4 m4" style={qStyle}>
+        <img
+          src={reactLogo}
+          alt="React Apps"
+          style={{ width: "50%", height: "50%", margin: "15% 0% 0% 25%" }}
+        />
+      </div>
+      <div className="col s4 m4 center" style={rStyle}>
+        <br />
+        <br />
+        <h6> New York Times & Mongodb Scraper</h6>
+        <div className="card-action">
+          <a
+            href="https://dry-basin-84655.herokuapp.com/"
+            // className="text-color-main"
+            title="Go to Nyt scraper!"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            See Deployed Website{" "}
+          </a>
+          <br />
+          <a
+            href="https://github.com/arnab156/reactNYTscraper.git"
+            // className="text-color-main"
+            title="Go to Nyt scraper!"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            See Github{" "}
+          </a>
+        </div>
+      </div>
+    </div>
     <div className="row">
       <div className="col s12 m6 movement">
         <div class="card ">
@@ -226,7 +307,6 @@ export const WebProjects = () => (
         />
       </div>
     </div>
-    
 
     <div className="row">
       <div className="col s6 m6 ">
@@ -242,14 +322,16 @@ export const WebProjects = () => (
         <div class="card ">
           <div class="card-content">
             <h5 className="header text-color-main"> Trivia Game</h5>
-            <p>This a fun game built with Javascript, Bootstrap and Momentjs.</p>
+            <p>
+              This a fun game built with Javascript, Bootstrap and Momentjs.
+            </p>
             <br />
             <p>
-              For the best experience use the link below to go to the website or you may also play around
-              with the virtual window to the left. See Github for more details.
-           
+              For the best experience use the link below to go to the website or
+              you may also play around with the virtual window to the left. See
+              Github for more details.
             </p>
-            <br />  
+            <br />
           </div>
 
           <div class=" card-action">
@@ -278,6 +360,76 @@ export const WebProjects = () => (
         </div>
       </div>
     </div>
+
+    <div className="row">
+      <div className="col s12 l12 movement">
+        <div className="card horizontal ">
+          <div className="card-stacked">
+            <div className="card-content">
+              <h3 className="header storyTitle center">Gym Rat</h3>
+              <p className="center">
+                Gym Rat is a collaborative project and is a one stop shop for
+                all of your gym needs and motivates the users to live a healthy
+                lifestyle.
+              </p>
+
+              <ul className="center">
+                <h6> Technologies used:</h6>
+                <li> Google Maps API, iTunes API, Food2Fork API, Weather Map API, Youtube API</li>
+                <li> Materialize </li>
+                <li> Javascript, Firebase.</li>
+              </ul>
+            </div>
+            <div className="card-action">
+              <p>
+                {" "}
+                For best performance please use Google Chrome and download any
+                CORS extension!
+              </p>
+              <a
+                href="https://arnab156.github.io/gymRat/"
+                className="text-color-main"
+                title="Go to Gym Rat!"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                See Deployed Website{" "}
+              </a>
+
+              <a
+                href="https://github.com/arnab156/gymRat.git"
+                className="text-color-main"
+                title="Go to Gym Rat Repo!"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                See Github{" "}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <Card title="See More Portfolio">
+          <Link
+            to={`/portfolio/webdevelopment/more`}
+            role="button"
+            className="btn btn-red-color"
+          >
+            See More
+          </Link>{" "}
+          <Link
+            to="/portfolio/webdevelopment"
+            role="button"
+            className="waves-effect waves-teal btn-flat"
+          >
+            Less
+          </Link>
+          <Route exact path={`/portfolio/webdevelopment/more`} component={MorePortfolio} />
+        </Card>
   </div>
 );
 
