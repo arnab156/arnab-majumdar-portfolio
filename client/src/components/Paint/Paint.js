@@ -11,7 +11,7 @@ import loveislove from "./Images/loveislove.jpg";
 import soxchi from "./Images/soxchi.jpg";
 
 export const Paint = () => (
-  <div>
+  <div classname = "flex-container">
     <div className="row">
       <div className="col s4 m4">
         <div className="card">
@@ -21,9 +21,7 @@ export const Paint = () => (
           </div>
           <div className="card-content">
             <p>
-              I am a very simple card. I am good at containing small bits of
-              information. I am convenient because I require little markup to
-              use effectively.
+              
             </p>
           </div>
         </div>
@@ -37,9 +35,7 @@ export const Paint = () => (
           </div>
           <div className="card-content">
             <p>
-              I am a very simple card. I am good at containing small bits of
-              information. I am convenient because I require little markup to
-              use effectively.
+              
             </p>
           </div>
         </div>
@@ -53,9 +49,7 @@ export const Paint = () => (
           </div>
           <div className="card-content">
             <p>
-              I am a very simple card. I am good at containing small bits of
-              information. I am convenient because I require little markup to
-              use effectively.
+              
             </p>
           </div>
         </div>
@@ -69,9 +63,7 @@ export const Paint = () => (
           </div>
           <div className="card-content">
             <p>
-              I am a very simple card. I am good at containing small bits of
-              information. I am convenient because I require little markup to
-              use effectively.
+              
             </p>
           </div>
         </div>
@@ -85,9 +77,7 @@ export const Paint = () => (
           </div>
           <div className="card-content">
             <p>
-              I am a very simple card. I am good at containing small bits of
-              information. I am convenient because I require little markup to
-              use effectively.
+              
             </p>
           </div>
         </div>
@@ -101,9 +91,7 @@ export const Paint = () => (
           </div>
           <div className="card-content">
             <p>
-              I am a very simple card. I am good at containing small bits of
-              information. I am convenient because I require little markup to
-              use effectively.
+              
             </p>
           </div>
         </div>
@@ -117,9 +105,7 @@ export const Paint = () => (
           </div>
           <div className="card-content">
             <p>
-              I am a very simple card. I am good at containing small bits of
-              information. I am convenient because I require little markup to
-              use effectively.
+              
             </p>
           </div>
         </div>
@@ -133,9 +119,9 @@ export const Paint = () => (
           </div>
           <div className="card-content">
             <p>
-              I am a very simple card. I am good at containing small bits of
+              {/* I am a very simple card. I am good at containing small bits of
               information. I am convenient because I require little markup to
-              use effectively.
+              use effectively. */}
             </p>
           </div>
         </div>
@@ -149,9 +135,9 @@ export const Paint = () => (
           </div>
           <div className="card-content">
             <p>
-              I am a very simple card. I am good at containing small bits of
+              {/* I am a very simple card. I am good at containing small bits of
               information. I am convenient because I require little markup to
-              use effectively.
+              use effectively. */}
             </p>
           </div>
         </div>
