@@ -23,3 +23,14 @@
     font-family: 'Faster One', cursive;
     color: #99001C;
 }
+
+@media screen and (max-width: 600px) {
+  .titleDivStyle {
+    padding-top: 40px;
+    padding-left: 50px;
+  }
+  .frameStyle2 {
+    width: 200%;
+  height: 300px;
+  }
+}
