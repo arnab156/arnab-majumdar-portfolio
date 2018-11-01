@@ -6,7 +6,7 @@
 
 .nav-width{
     height:200px;
-   
+    background-color: #99001C;
 }
 
 .nav-align{
@@ -14,3 +14,19 @@
     background-color: #99001C;
 }
 
+.titleDivStyle{
+    padding-top:50px;
+}
+
+
+
+@media screen and (max-width:610px) { 
+
+    
+    .titleDivStyle{
+        padding-top:40px;
+        padding-left:50px;
+    }
+
+    
+}

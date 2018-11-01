@@ -3,26 +3,23 @@ import { Link } from "react-router-dom";
 import "./Nav.css";
 
 const Nav = () => (
-  <div> 
+  <div>
     <nav className="nav-width">
-      <div className="nav-align">
-      <ul>
-        <li>
+      <div className="right">
+        <ul>
+          <li>
+            <Link to="/home">Home</Link>{" "}
+          </li>
+          <li>
+            <Link to="/portfolio">Portfolio</Link>
+          </li>
+        </ul>
+      </div>
+
+      <div className="titleDivStyle">
         <a href="/home" className="brand-title">
           Arnab Majumdar
         </a>
-        </li>
-      </ul>
-        
-        <ul className="right">
-          <li>
-          <Link to="/home">Home</Link>{" "}
-          </li>
-          <li>
-          <Link to="/portfolio">Portfolio</Link>
-          </li>
-        </ul>
-        
       </div>
     </nav>
   </div>

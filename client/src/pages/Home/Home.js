@@ -9,9 +9,10 @@ class Search extends Component {
   render() {
     return (
       <Container>
-        <Card>
+        {/* <Card> */}
+        <br/> <br/>
           <FlipCart />
-        </Card>
+        {/* </Card> */}
 
         <Card title="Contact">
           <Link

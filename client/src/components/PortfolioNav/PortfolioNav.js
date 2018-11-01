@@ -9,9 +9,9 @@ import Paint from "../../components/Paint/Paint";
 const PortNav = props => (
   <div>
     <div className="navbar z-depth-3 pulse">
-      <Link to={`/portfolio/webdevelopment`} role="button" id="web11">{props.button1} </Link>{" "}
-      <Link to={`/portfolio/fashion`} role="button" id="fashion11"> {props.button2}</Link>{" "}
-      <Link to={`/portfolio/paint`} role="button" id="paint11"> {props.button3}</Link>{" "}
+      <Link to={`/portfolio/webdevelopment`} role="button" id="web11" className="mini4">{props.button1} </Link>{" "}
+      <Link to={`/portfolio/fashion`} role="button" id="fashion11" className="mini4"> {props.button2}</Link>{" "}
+      <Link to={`/portfolio/paint`} role="button" id="paint11" className="mini4"> {props.button3}</Link>{" "}
     </div>
 
       <Route  path={`/portfolio/webdevelopment`} component={WebProject} />
