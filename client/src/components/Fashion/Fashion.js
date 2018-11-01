@@ -31,9 +31,9 @@ const pStyle = {
   color: "rgb(133, 47, 214)"
 };
 
-const aStyle = {
-  width: "100%"
-};
+// const aStyle = {
+//   width: "100%"
+// };
 
 export const Fashion = () => (
   <div>
@@ -41,7 +41,7 @@ export const Fashion = () => (
       <div className="col s6 m6 movement">
         <div className="card">
           <div className="card-image waves-effect waves-block waves-light pixfix">
-            <img className="activator" src={project} alt="alt" />
+            <img className="activator pixfix2" src={project} alt="alt" />
           </div>
           <div className="card-content">
             <span className="card-title activator grey-text text-darken-4">
@@ -71,7 +71,7 @@ export const Fashion = () => (
       <div className="col s6 m6 movement">
         <div className="card">
           <div className="card-image waves-effect waves-block waves-light pixfix">
-            <img className="activator" src={project3} alt="alt" />
+            <img className="activator pixfix2" src={project3} alt="alt" />
           </div>
           <div className="card-content">
             <span className="card-title activator grey-text text-darken-4">
@@ -91,10 +91,7 @@ export const Fashion = () => (
                 <li><a href="http://www.windycitymediagroup.com/lgbt/Coming-to-a-vending-machine-near-you-Activewear/61310.html" title="Windy City Times" target="_blank" rel="noopener noreferrer">
                 Feature: Windy City Times</a></li>
             </ul>
-              
-
-              {/*  */}
-           
+      
           </div>
         </div>
       </div>
@@ -108,7 +105,7 @@ export const Fashion = () => (
           <div className="col s4 m4">
             <div className="card">
               <div className="card-image">
-                <img src={PurpleT} alt="Purple T Shirt" />
+                <img className="pixfix2" src={PurpleT} alt="Purple T Shirt" />
                 <span className="card-title">T-Shirt</span>
               </div>
               <div className="card-content">
@@ -125,7 +122,7 @@ export const Fashion = () => (
           <div className="col s4 m4">
             <div className="card">
               <div className="card-image">
-                <img src={PurpleTank} alt="Purple Tank" />
+                <img className="pixfix2" src={PurpleTank} alt="Purple Tank" />
                 <span className="card-title">Active Tank</span>
               </div>
 
@@ -143,7 +140,7 @@ export const Fashion = () => (
           <div className="col s4 m4">
             <div className="card">
               <div className="card-image">
-                <img src={PurpleWomens} alt="Purple Womens" />
+                <img className="pixfix2" src={PurpleWomens} alt="Purple Womens" />
                 <span className="card-title">Sports Bra</span>
               </div>
               <div className="card-content">
@@ -169,7 +166,7 @@ export const Fashion = () => (
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
                 <img
-                  className="activator"
+                  className="activator pixfix2"
                   src={TowerBlack1}
                   alt="tower black sports brat"
                 />
@@ -183,7 +180,7 @@ export const Fashion = () => (
                 <span className="card-title grey-text text-darken-4">
                   Click here to close
                 </span>
-                <img className="activator" src={TowerBlack8} alt="blue mesh" />
+                <img className="activator pixfix2" src={TowerBlack8} alt="blue mesh" />
               </div>
             </div>
           </div>
@@ -191,7 +188,7 @@ export const Fashion = () => (
           <div className="col s4 m4">
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" src={TowerBlack2} alt="alt" />
+                <img className="activator pixfix2" src={TowerBlack2} alt="alt" />
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">
@@ -202,10 +199,10 @@ export const Fashion = () => (
                 <span className="card-title grey-text text-darken-4">
                   Click here to close
                 </span>
-                <h4>
+                <h5>
                   "..tower black collection is inspired by modern chicago
                   architecture & it's architects."
-                </h4>
+                </h5>
               </div>
             </div>
           </div>
@@ -213,18 +210,18 @@ export const Fashion = () => (
           <div className="col s4 m4">
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" src={TowerBlack3} alt="flex tank" />
+                <img className="activator pixfix2" src={TowerBlack3} alt="flex tank" />
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">
-                  Men's Flex Tank
+                  Men's Active Flex Tank
                 </span>
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">
                   Click here to close
                 </span>
-                <img className="activator" src={TowerBlack7} alt="blue mesh" />
+                <img className="activator pixfix2" src={TowerBlack7} alt="blue mesh" />
               </div>
             </div>
           </div>
@@ -232,7 +229,7 @@ export const Fashion = () => (
           <div className="col s4 m4">
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" src={TowerBlack4} alt="alt" />
+                <img className="activator pixfix2" src={TowerBlack4} alt="alt" />
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">
@@ -252,7 +249,7 @@ export const Fashion = () => (
           <div className="col s4 m4">
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" src={TowerBlack5} alt="alt" />
+                <img className="activator pixfix2" src={TowerBlack5} alt="alt" />
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">
@@ -263,7 +260,7 @@ export const Fashion = () => (
                 <span className="card-title grey-text text-darken-4">
                   Click here to close
                 </span>
-                <img className="activator" src={TowerBlack9} alt="alt" />
+                <img className="activator pixfix2" src={TowerBlack9} alt="alt" />
               </div>
             </div>
           </div>
@@ -271,7 +268,7 @@ export const Fashion = () => (
           <div className="col s4 m4">
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" src={TowerBlack6} alt="alt" />
+                <img className="activator pixfix2" src={TowerBlack6} alt="alt" />
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">
@@ -301,13 +298,13 @@ export const Fashion = () => (
       <h3 className="header center storyTitle">AT&T Samsung Fashion Project</h3>
       <div className="col s12 m12 ">
         <div className="col s6 m6  ">
-          <img src={ATT} alt="alt" />
+          <img className= "pixfix2" src={ATT} alt="alt" />
         </div>
         <div className="col s6 m6   ">
-          <img src={SAMSUNG} alt="alt" />
+          <img className= "pixfix3" src={SAMSUNG} alt="alt" />
         </div>
         <div className="col s5 m5  center">
-          <img src={ATT2} alt="alt" style={aStyle} />
+          <img className= "pixfix4" src={ATT2} alt="alt"  />
         </div>
         <div className="col s7 m7  center">
         <br/><br/>
@@ -344,23 +341,21 @@ export const Fashion = () => (
           Center and also at Willis Tower.
         </p>
         <div className="col s4 m4 movement ">
-          <img src={EOI1} alt="alt" />
+          <img className= "pixfix_EOI" src={EOI1} alt="alt" />
         </div>
         <div className="col s4 m4 movement  ">
-          <img src={EOI2} alt="alt" />
+          <img  className= "pixfix_EOI" src={EOI2} alt="alt" />
         </div>
         <div className="col s4 m4 movement center">
-          <img src={EOI3} alt="alt" />
+          <img className= "pixfix_EOI" src={EOI3} alt="alt" />
         </div>
         <div className="col s1 m1 movement center" />
         <div className="col s6 m6 movement center">
-          <img src={EOI5} alt="alt" />
+          <img className= "pixfix_EOI" src={EOI5} alt="alt" />
         </div>
         <div className="col s3 m3 movement center">
-          <img src={EOI6} alt="alt" />
-          {/* <div className="col s3 m3 movement center">
-        
-        </div> */}
+          <img className= "pixfix_EOI" src={EOI6} alt="alt" />
+ 
         </div>
       </div>
     </div>
