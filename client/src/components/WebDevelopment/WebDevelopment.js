@@ -225,7 +225,8 @@ const WebProjects = () => (
         <img
           src={reactLogo}
           alt="React Apps"
-          style={{ width: "50%", height: "50%", margin: "15% 0% 0% 25%" }}
+          className="reactLogoStyle"
+          // style={{ width: "50%", height: "50%", margin: "15% 0% 0% 25%" }}
         />
       </div>
       <div className="col s4 m4 center" style={rStyle}>
