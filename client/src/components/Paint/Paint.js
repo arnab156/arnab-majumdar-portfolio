@@ -1,14 +1,14 @@
 import React from "react";
 import "./Paint.css";
-import paint1 from "./Images/Painting1.jpg";
-import paint2 from "./Images/Painting2.jpg";
-import chicago from "./Images/chicago.jpg";
-import dhunochi from "./Images/dhunochi.jpg";
-import dryflower from "./Images/dryflower.jpg";
-import flowercard from "./Images/flowercard.jpg";
-import tigerlily from "./Images/tigerlily.jpg";
-import loveislove from "./Images/loveislove.jpg";
-import soxchi from "./Images/soxchi.jpg";
+import paint1 from "./Image/Painting1.jpg";
+import paint2 from "./Image/Painting2.jpg";
+import chicago from "./Image/chicago.jpg";
+import dhunochi from "./Image/dhunochi.jpg";
+import dryflower from "./Image/dryflower.jpg";
+import flowercard from "./Image/flowercard.jpg";
+import tigerlily from "./Image/tigerlily.jpg";
+import loveislove from "./Image/loveislove.jpg";
+import soxchi from "./Image/soxchi.jpg";
 
 export const Paint = () => (
   <div classname = "flex-container">
