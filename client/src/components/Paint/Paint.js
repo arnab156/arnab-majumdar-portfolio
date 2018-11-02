@@ -30,12 +30,11 @@ export const Paint = () => (
       <div className="col s4 m4">
         <div className="card">
           <div className="card-image">
-            <img src={chicago} alt="chicago" />
-            <span className="card-title">Chicago</span>
+            <img src={dryflower} alt="dryflower" />
+            <span className="card-title">Alive</span>
           </div>
           <div className="card-content">
             <p>
-              
             </p>
           </div>
         </div>
@@ -58,6 +57,20 @@ export const Paint = () => (
       <div className="col s4 m4">
         <div className="card">
           <div className="card-image">
+            <img src={chicago} alt="chicago" />
+            <span className="card-title">Chicago</span>
+          </div>
+          <div className="card-content">
+            <p>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div className="col s4 m4">
+        <div className="card">
+          <div className="card-image">
             <img src={dhunochi} alt="dhunochi" />
             <span className="card-title">Victorious</span>
           </div>
@@ -69,19 +82,7 @@ export const Paint = () => (
         </div>
       </div>
 
-      <div className="col s4 m4">
-        <div className="card">
-          <div className="card-image">
-            <img src={dryflower} alt="dryflower" />
-            <span className="card-title">Alive</span>
-          </div>
-          <div className="card-content">
-            <p>
-              
-            </p>
-          </div>
-        </div>
-      </div>
+
 
       <div className="col s4 m4">
         <div className="card">
