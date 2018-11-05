@@ -14,6 +14,8 @@ const FlipCart = () => (
           <div className="flip-box-front">
             <h2>About Me</h2>
             <img id="profilePic" src={profileimage} alt="profileimage" />
+            <br/>
+            <img src={touch} alt="LinkedIn Link" className="touchIconStyle" />
           </div>
           <div className="flip-box-back">
             <h2>About Me</h2>
@@ -56,8 +58,8 @@ const FlipCart = () => (
               <li> Adobe Creative Suite </li>
               <li> Entrepreneurial, Creative </li>
             </ul>
-
-            <img src={touch} alt="LinkedIn Link" className="thumbnail" />
+            
+            <img src={touch} alt="LinkedIn Link" className="touchIconStyle" />
           </div>
           <div className="flip-box-back">
             <h2>Social</h2>

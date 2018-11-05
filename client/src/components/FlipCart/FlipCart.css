@@ -65,10 +65,16 @@
   margin-left:10%;
   margin-right:10%;
 }
+.touchIconStyle{
+  height:50px;
+}
 
 @media only screen and (max-width: 300px) {
   .text {
     font-size: 11px;
+  }
+  .touchIconStyle{
+    height:20px;
   }
 }
 
@@ -87,6 +93,9 @@
     font-size: 20px;
     padding: 10px;
     width: 80%;
+  }
+  .touchIconStyle{
+    height:40px;
   }
 }
 
@@ -119,5 +128,8 @@
   }
   .mini2{
     font-size: 12px;
+  }
+  .touchIconStyle{
+    height:30px;
   }
 }

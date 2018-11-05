@@ -39,11 +39,11 @@ const WebProjects = () => (
                 <ol>
                   <li>Check SilverLine train schedule.</li>
                   <li>
-                    Add Train line and schedule. Please enter train frequency in
+                    Add a train line and schedule. Please enter train frequency in
                     minutes only.
                   </li>
                   <li>
-                    You can update (name, trtainnumber, frequency) and even
+                    You can update (name, train number, frequency) and even
                     delete the train schedule.
                   </li>
                   <li>
