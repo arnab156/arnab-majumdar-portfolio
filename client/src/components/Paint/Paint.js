@@ -17,7 +17,7 @@ export const Paint = () => (
         <div className="card">
           <div className="card-image">
             <img src={paint1} alt="painting1" />
-            <span className="card-title">Nephew</span>
+            <strong><center><span>Nephew</span></center></strong>
           </div>
           <div className="card-content">
             <p>
@@ -31,7 +31,7 @@ export const Paint = () => (
         <div className="card">
           <div className="card-image">
             <img src={dryflower} alt="dryflower" />
-            <span className="card-title">Alive</span>
+            <strong><center><span>Alive</span></center></strong>
           </div>
           <div className="card-content">
             <p>
@@ -44,7 +44,7 @@ export const Paint = () => (
         <div className="card">
           <div className="card-image">
             <img src={paint2} alt="painting2" />
-            <span className="card-title">Wah Taj!</span>
+            <strong><center><span>Wah Taj!</span></center></strong>
           </div>
           <div className="card-content">
             <p>
@@ -58,7 +58,7 @@ export const Paint = () => (
         <div className="card">
           <div className="card-image">
             <img src={chicago} alt="chicago" />
-            <span className="card-title">Chicago</span>
+            <strong><center><span>Chicago</span></center></strong>
           </div>
           <div className="card-content">
             <p>
@@ -72,7 +72,7 @@ export const Paint = () => (
         <div className="card">
           <div className="card-image">
             <img src={dhunochi} alt="dhunochi" />
-            <span className="card-title">Victorious</span>
+            <strong><center><span>Victorious</span></center></strong>
           </div>
           <div className="card-content">
             <p>
@@ -88,7 +88,7 @@ export const Paint = () => (
         <div className="card">
           <div className="card-image">
             <img src={flowercard} alt="flowercard" />
-            <span className="card-title">Flower</span>
+            <strong><center><span>Flower</span></center></strong>
           </div>
           <div className="card-content">
             <p>
@@ -102,7 +102,7 @@ export const Paint = () => (
         <div className="card">
           <div className="card-image">
             <img src={loveislove} alt="LoveisLove" />
-            <span className="card-title">LoveisLove</span>
+            <strong><center><span>LoveisLove</span></center></strong>
           </div>
           <div className="card-content">
             <p>
@@ -116,7 +116,7 @@ export const Paint = () => (
         <div className="card">
           <div className="card-image">
             <img src={soxchi} alt="soxchi" />
-            <span className="card-title">Mexico City</span>
+            <strong><center><span>Mexico City</span></center></strong>
           </div>
           <div className="card-content">
             <p>
@@ -132,7 +132,7 @@ export const Paint = () => (
         <div className="card">
           <div className="card-image">
             <img src={tigerlily} alt="tigerlily" />
-            <span className="card-title">Tigerlily</span>
+            <strong><center><span>Tigerlily</span></center></strong>
           </div>
           <div className="card-content">
             <p>

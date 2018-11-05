@@ -41,13 +41,12 @@ export const Fashion = () => (
             <img className="activator" src={project} alt="alt" />
           </div>
           <div className="card-content">
-            <span className="card-title activator grey-text text-darken-4">
-              Co-founder, Madeofchicago
-            </span>
+            <strong><span className=" activator grey-text text-darken-4">
+              Co-founder, Madeofchicago</span> </strong>
           </div>
           <div className="card-reveal">
             <span className="card-title grey-text text-darken-4">
-              MadeofChicago.com
+              Click here to close.
             </span>
             <p>
               "A Chicago-Inspired, Chicago-Designed active wear fashion brand
@@ -71,15 +70,14 @@ export const Fashion = () => (
             <img className="activator" src={project3} alt="alt" />
           </div>
           <div className="card-content">
-            <span className="card-title activator grey-text text-darken-4">
+            <strong><span className="activator grey-text text-darken-4">
               Hi-Tech Retail Experience
-            </span>
+            </span></strong>
           </div>
           <div className="card-reveal">
             <span className="card-title grey-text text-darken-4">
               Quick Resources:
             </span>
-
             <ul>
               <li>
                 <a
@@ -126,7 +124,7 @@ export const Fashion = () => (
             <div className="card">
               <div className="card-image">
                 <img className="" src={PurpleT} alt="Purple T Shirt" />
-                <span className="card-title">T-Shirt</span>
+                <strong><center>T-Shirt</center></strong>
               </div>
               <div className="card-content">
                 <p>
@@ -143,7 +141,7 @@ export const Fashion = () => (
             <div className="card">
               <div className="card-image">
                 <img src={PurpleTank} alt="Purple Tank" />
-                <span className="card-title">Active Tank</span>
+                <strong><center>Active Tank</center></strong>
               </div>
 
               <div className="card-content">
@@ -159,22 +157,23 @@ export const Fashion = () => (
           <div className="col s4 m4">
             <div className="card">
               <div className="card-image">
-              <center>Sports Bra </center>
+             <strong>   <center>Sports Bra </center></strong>
                 <img src={PurpleWomens} alt="Purple Womens" />
                 <span className="card-content-2"></span>
               </div>
               <div className="card-content">
-                <p>All Purple Lines are made with:</p>
-                <ol>
-                  <li> Sweat Wicking Fabric </li>
-                  <li> 4-way Stretch Fabric </li>
-                  <li> High Quality Flatlock Seaming </li>
-                </ol>
+                <p>All Purple Lines are made with: <br/><br/>
+                
+                  Sweat Wicking Fabric <br/><br/>
+                  4-way Stretch Fabric <br/><br/>
+                  High Quality Flatlock Seaming <br/>
+                   </p>
               </div>
 
               <div className="card-image">
                 <img className="" src={PurpleShorts} alt="Purple Shorts" />
-                <center>Sports Shorts </center>
+               <strong> <center>Shorts </center></strong> 
+               <br/>
               </div>
             </div>
           </div>
@@ -198,9 +197,9 @@ export const Fashion = () => (
                 />
               </div>
               <div className="card-content">
-                <span className="card-title activator grey-text text-darken-4">
+                <strong><span className="activator grey-text text-darken-4">
                   Active Sports Bra
-                </span>
+                </span></strong>
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">
@@ -225,9 +224,9 @@ export const Fashion = () => (
                 />
               </div>
               <div className="card-content">
-                <span className="card-title activator grey-text text-darken-4">
+                <strong><span className="activator grey-text text-darken-4">
                 Active Flex Tights
-                </span>
+                </span></strong>
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">
@@ -251,9 +250,9 @@ export const Fashion = () => (
                 />
               </div>
               <div className="card-content">
-                <span className="card-title activator grey-text text-darken-4">
-                  Men's Flex Active Tank
-                </span>
+               <strong> <span className="activator grey-text text-darken-4">
+                  Flex Active Tank
+                </span></strong>
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">
@@ -278,9 +277,9 @@ export const Fashion = () => (
                 />
               </div>
               <div className="card-content">
-                <span className="card-title activator grey-text text-darken-4">
-                  Activewear T-Shirt
-                </span>
+              <strong><span className=" activator grey-text text-darken-4">
+                  Active T-Shirt
+                </span></strong>
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">
@@ -308,9 +307,9 @@ export const Fashion = () => (
                 />
               </div>
               <div className="card-content">
-                <span className="card-title activator grey-text text-darken-4">
-                  Activewear T-Shirt
-                </span>
+              <strong><span className="activator grey-text text-darken-4">
+                  Active Knit Shorts
+                </span></strong>
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">
@@ -335,9 +334,9 @@ export const Fashion = () => (
                 />
               </div>
               <div className="card-content">
-                <span className="card-title activator grey-text text-darken-4">
-                  Activewear T-Shirt
-                </span>
+              <strong><span className=" activator grey-text text-darken-4">
+                  Active T-Shirt
+                </span></strong>
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">
@@ -400,9 +399,9 @@ export const Fashion = () => (
       <h3 className="header center storyTitle">
         Eye on India Sew Sari Project
       </h3>
-      <div className="col s12 m12 center">
+      
         <p className="col s1 m1" />
-        <p className="col s10 m10">
+        <p className="col s10 m10 center">
           Eye on India Sari Project intended to create an interaction between
           fashion, photography, and sustainbality resulting in a net increase of
           audiences 100 times over past years at Eye on India event. This
@@ -412,18 +411,19 @@ export const Fashion = () => (
           awareness of re-purposing and sustainability. This project has been
           exhibited at Bridgeport Art Center and also at Willis Tower.
         </p>
-  
+        <p className="col s1 m1" />
+
         <div className="col s3 m3 ">
-          <img src={EOI1} alt="alt" />
+          <img className= "EOIheight"  src={EOI1} alt="alt" />
         </div>
         <div className="col s3 m3  ">
-          <img src={EOI2} alt="alt" />
+          <img className= "EOIheight" src={EOI2} alt="alt" />
         </div>
         <div className="col s3 m3 ">
-          <img src={EOI3} alt="alt" />
+          <img className= "EOIheight" src={EOI3} alt="alt" />
         </div>
         <div className="col s3 m3 ">
-          <img src={EOI4} alt="alt" />
+          <img className= "EOIheight"  src={EOI4} alt="alt" />
         </div>
        
       
@@ -437,7 +437,7 @@ export const Fashion = () => (
           <img className= "EOIheight" src={EOI7} alt="alt" />
         </div>
         
-      </div>
+      
     </div>
   </div>
 );

@@ -36,7 +36,8 @@
 }
 
 .flip-box-front {
-  background-color: rgb(226, 223, 223);
+  /* background-color: rgb(226, 223, 223); */
+
   color: rgb(237, 80, 122);
 }
 
@@ -76,7 +77,7 @@
         flex-direction: column;
     } */
   .flip-box {
-    height: 300px;
+    /* height: 300px; */
     overflow: auto;
     float: none;
   }

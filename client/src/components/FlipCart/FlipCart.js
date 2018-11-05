@@ -4,10 +4,11 @@ import profileimage from "./profilepic.jpg";
 import insta from "./instagram.png";
 import linkedIn from "./LinkedIn.png";
 import github from "./github.png";
+import touch from "./touch.png";
 
 const FlipCart = () => (
   <div>
-    <div className="flex-container1"> 
+    <div className="flex-container1">
       <div className="flip-box">
         <div className="flip-box-inner">
           <div className="flip-box-front">
@@ -17,25 +18,23 @@ const FlipCart = () => (
           <div className="flip-box-back">
             <h2>About Me</h2>
             <div className="row">
-            {/* <p className="col s2 m2  center minimize"/> */}
+              {/* <p className="col s2 m2  center minimize"/> */}
               <p className="  center minimize">
                 I am a full stack web developer who is detailed oriented,
                 fast-paced, and creative. In my previous experiences in fashion
                 retail, global sourcing, academia, and in a start-up, I have
                 excelled in problem-solving, multi-tasking, and more
                 importantly, learned valuable professional and life lessons.
-                <br/><br/>
-                Gallup Strength:{" "}<b> Futuristic, Ideation, Command, Intellection, Input</b>
-
+                <br />
+                <br />
+                Gallup Strength:{" "}
+                <b> Futuristic, Ideation, Command, Intellection, Input</b>
                 <ul>
                   <li> Cat Parent</li>
                   <li> Design Enthusiast</li>
                   <li> He/Him/His</li>
                 </ul>
               </p>
-                
-              
-
             </div>
           </div>
         </div>
@@ -57,6 +56,8 @@ const FlipCart = () => (
               <li> Adobe Creative Suite </li>
               <li> Entrepreneurial, Creative </li>
             </ul>
+
+            <img src={touch} alt="LinkedIn Link" className="thumbnail" />
           </div>
           <div className="flip-box-back">
             <h2>Social</h2>
