@@ -5,20 +5,8 @@ import Card from "../Card/card";
 import { Link, Route } from "react-router-dom";
 import MorePortfolio from "./MorePortfolio";
 
-const pStyle = {
-  background: "#B22222",
-  height: "200px",
-  color: "white"
-};
-const qStyle = {
-  background: "#FF8C00",
-  font: "Faster One",
-  height: "200px"
-};
-const rStyle = {
-  background: "#FFD700",
-  height: "200px"
-};
+
+
 
 const WebProjects = () => (
   <div>
@@ -34,23 +22,20 @@ const WebProjects = () => (
                 This app is created with Firebase, HTML, CSS, Moments and jQuery
               </p>
               <p>
-                {" "}
-                In this CRUD app you can:
-                <ol>
-                  <li>Check SilverLine train schedule.</li>
-                  <li>
-                    Add a train line and schedule. Please enter train frequency in
-                    minutes only.
-                  </li>
-                  <li>
-                    You can update (name, train number, frequency) and even
-                    delete the train schedule.
-                  </li>
-                  <li>
-                    Trains arriving in 4 mins or less will highlight in the
-                    schedule.
-                  </li>
-                </ol>
+                <br />
+                <strong>In this CRUD app you can: </strong>
+                <br />
+                1. Check SilverLine train schedule.
+                <br />
+                2. Add a train line and schedule. Please enter train frequency
+                in minutes only.
+                <br />
+                3. You can update (name, train number, frequency) and even
+                delete the train schedule.
+                <br />
+                4. Trains arriving in 4 mins or less will highlight in the
+                schedule.
+                <br />
               </p>
             </div>
             <div className="card-action ">
@@ -91,16 +76,17 @@ const WebProjects = () => (
               </p>
 
               <p>
-                {" "}
+                <br />
                 In this app you can:
-                <ol>
-                  <li>Create/Order your own burger</li>
-                  <li>Press Devour button to eat it up.</li>
-                  <li>Press un-Devour button to un-eat it.</li>
-                  <li>
-                    Press Delete button to delete the burger from the list.
-                  </li>
-                </ol>
+                <br />
+                1. Create/Order your own burger
+                <br />
+                2. Press Devour button to eat it up.
+                <br />
+                3. Press un-Devour button to un-eat it.
+                <br />
+                4. Press Delete button to delete the burger from the list.
+                <br />
               </p>
             </div>
             <div className="card-action">
@@ -132,13 +118,13 @@ const WebProjects = () => (
         className="frameStyle"
         title="project1"
         src="https://arnab156.github.io/Firebase-trainSchedule-SilverLine/"
-        allowfullscreen
+        allowFullScreen
       />
       <iframe
         className="frameStyle"
         title="project3"
         src="https://arnab-burger.herokuapp.com/"
-        allowfullscreen
+        allowFullScreen
       />
       <br /> <br />
       <hr />
@@ -156,12 +142,13 @@ const WebProjects = () => (
                 academia, hair salons, spa, restaurant and what not!
               </p>
 
-              <ul className="center">
-                <h6> Technologies used:</h6>
-                <li> Passport Authentication</li>
-                <li> HTML, CSS </li>
-                <li> Express, Sequelize and MySQL.</li>
-              </ul>
+              <p className="center">
+                <br /> <strong>Technologies used:</strong>
+                <br /> Passport Authentication
+                <br /> HTML, CSS
+                <br /> Express, Sequelize and MySQL.
+                <br />
+              </p>
             </div>
             <div className="card-action">
               <a
@@ -192,22 +179,22 @@ const WebProjects = () => (
     </div>
 
     <div className="row">
-      <div className="col s4 m4 center" style={pStyle}>
-        <br />
-        <br />
-        <h6> Clicky React Game</h6>
+      <div className="col s4 m4 center pStyle" >
+        <br /> <br />
         <div className="card-action">
-          <a
-            href="https://arnab156.github.io/my-game/ "
-            // className="text-color-main"
-            title="Go to Clicky Game!"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {" "}
-            See Deployed Website{" "}
-          </a>
-          <br />
+          <div class="btn1">
+            <a
+              href="https://arnab156.github.io/my-game/ "
+              // className="text-color-main"
+              title="Go to Clicky Game!"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="white-text">See Website</span>
+            </a>
+
+            <div class="dot" />
+          </div>
           <a
             href="https://github.com/arnab156/my-game.git"
             // className="text-color-main"
@@ -215,13 +202,15 @@ const WebProjects = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}
-            See Github{" "}
-          </a>
+            See Github
+          </a>{" "}
+          <br />
+          
+          <h6> Clicky React Game</h6>
         </div>
       </div>
 
-      <div className="col s4 m4" style={qStyle}>
+      <div className="col s4 m4 qStyle" >
         <img
           src={reactLogo}
           alt="React Apps"
@@ -229,22 +218,23 @@ const WebProjects = () => (
           // style={{ width: "50%", height: "50%", margin: "15% 0% 0% 25%" }}
         />
       </div>
-      <div className="col s4 m4 center" style={rStyle}>
-        <br />
-        <br />
-        <h6> New York Times & Mongodb Scraper</h6>
+      <div className="col s4 m4 center rStyle" >
+        
+        <br /><br/>
         <div className="card-action">
-          <a
-            href="https://dry-basin-84655.herokuapp.com/"
-            // className="text-color-main"
-            title="Go to Nyt scraper!"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {" "}
-            See Deployed Website{" "}
-          </a>
-          <br />
+          <div class="btn1">
+            <a
+              href="https://dry-basin-84655.herokuapp.com/"
+              // className="text-color-main"
+              title="Go to Nyt scraper!"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="white-text">See Website</span>
+            </a>
+            <div class="dot" />
+          </div>
+
           <a
             href="https://github.com/arnab156/reactNYTscraper.git"
             // className="text-color-main"
@@ -255,13 +245,15 @@ const WebProjects = () => (
             {" "}
             See Github{" "}
           </a>
+          <br/>   
+          <h6> New York Times & Mongodb Scraper</h6>
         </div>
       </div>
     </div>
     <div className="row">
       <div className="col s12 m6 movement">
-        <div class="card ">
-          <div class="card-content">
+        <div className="card ">
+          <div className="card-content">
             <h5 className="header text-color-main"> Word Guessing Game</h5>
             <p>This a fun game built with Javascript, HTML and CSS.</p>
             <br />
@@ -273,7 +265,7 @@ const WebProjects = () => (
             </p>
           </div>
 
-          <div class=" card-action">
+          <div className=" card-action">
             <a
               href="https://arnab156.github.io/wordGuessGame/"
               className="text-color-main"
@@ -304,7 +296,7 @@ const WebProjects = () => (
           className="frameStyle2"
           title="projectguesscity"
           src="https://arnab156.github.io/wordGuessGame/"
-          allowfullscreen
+          allowFullScreen
         />
       </div>
     </div>
@@ -315,13 +307,13 @@ const WebProjects = () => (
           className="frameStyle2"
           title="projectguess"
           src="https://arnab156.github.io/TriviaGame/"
-          allowfullscreen
+          allowFullScreen
         />
       </div>
 
       <div className="col s12 m6 movement">
-        <div class="card ">
-          <div class="card-content">
+        <div className="card ">
+          <div className="card-content">
             <h5 className="header text-color-main"> Trivia Game</h5>
             <p>
               This a fun game built with Javascript, Bootstrap and Momentjs.
@@ -335,7 +327,7 @@ const WebProjects = () => (
             <br />
           </div>
 
-          <div class=" card-action">
+          <div className=" card-action">
             <a
               href="https://arnab156.github.io/TriviaGame/"
               className="text-color-main"
@@ -374,12 +366,17 @@ const WebProjects = () => (
                 lifestyle.
               </p>
 
-              <ul className="center">
-                <h6> Technologies used:</h6>
-                <li> Google Maps API, iTunes API, Food2Fork API, Weather Map API, Youtube API</li>
-                <li> Materialize </li>
-                <li> Javascript, Firebase.</li>
-              </ul>
+              <p className="center">
+                <br />
+                <strong>Technologies used: </strong>
+                <br /> Google Maps API, iTunes API, Food2Fork API, Weather Map
+                API, Youtube API
+                <br />
+                Materialize
+                <br />
+                Javascript, Firebase.
+                <br />
+              </p>
             </div>
             <div className="card-action">
               <p>
@@ -415,22 +412,26 @@ const WebProjects = () => (
     </div>
 
     <Card title="See More Portfolio">
-          <Link
-            to={`/portfolio/webdevelopment/more`}
-            role="button"
-            className="btn btn-red-color"
-          >
-            See More
-          </Link>{" "}
-          <Link
-            to="/portfolio/webdevelopment"
-            role="button"
-            className="waves-effect waves-teal btn-flat"
-          >
-            Less
-          </Link>
-          <Route exact path={`/portfolio/webdevelopment/more`} component={MorePortfolio} />
-        </Card>
+      <Link
+        to={`/portfolio/webdevelopment/more`}
+        role="button"
+        className="btn btn-red-color"
+      >
+        See More
+      </Link>{" "}
+      <Link
+        to="/portfolio/webdevelopment"
+        role="button"
+        className="waves-effect waves-teal btn-flat"
+      >
+        Less
+      </Link>
+      <Route
+        exact
+        path={`/portfolio/webdevelopment/more`}
+        component={MorePortfolio}
+      />
+    </Card>
   </div>
 );
 
