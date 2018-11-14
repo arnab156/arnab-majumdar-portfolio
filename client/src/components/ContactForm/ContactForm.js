@@ -31,18 +31,18 @@ class NameForm extends React.Component {
   }
 
   handleSubmit(event) {
-    
-    console.log(event);
-    alert(
-      "your name: " +
-        this.state.fullname +
-        "  your email: " +
-        this.state.email +
-        "  your comment: " +
-        this.state.message
-    );
+    // console.log(event);
+    // alert(
+    //   "your name: " +
+    //     this.state.fullname +
+    //     "  your email: " +
+    //     this.state.email +
+    //     "  your comment: " +
+    //     this.state.message
+    // );
 
     event.preventDefault();
+    
   }
 
   render() {
@@ -112,18 +112,6 @@ class NameForm extends React.Component {
           </div>
         </form>
       </div>
-
-      // <form onSubmit={this.handleSubmit}>
-      //   <label>
-      //     Name:
-      //     <input type="text" name="name" value={this.state.name} onChange={this.handleChange} />
-      //   </label>
-      //   <label>
-      //     Address:
-      //     <input type="text" name="address" value={this.state.address} onChange={this.handleChange} />
-      //   </label>
-      //   <input type="submit" value="Submit" />
-      // </form>
     );
   }
 }
