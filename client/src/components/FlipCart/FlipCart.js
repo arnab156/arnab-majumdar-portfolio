@@ -14,7 +14,7 @@ const FlipCart = () => (
           <div className="flip-box-front">
             <h2>About Me</h2>
             <img id="profilePic" src={profileimage} alt="profileimage" />
-            <br/>
+            <br />
             <img src={touch} alt="LinkedIn Link" className="touchIconStyle" />
           </div>
           <div className="flip-box-back">
@@ -22,11 +22,12 @@ const FlipCart = () => (
             <div className="row">
               {/* <p className="col s2 m2  center minimize"/> */}
               <p className="  center minimize">
-                I am a full stack web developer who is detailed oriented,
-                fast-paced, and creative. In my previous experiences in fashion
-                retail, global sourcing, academia, and in a start-up, I have
-                excelled in problem-solving, multi-tasking, and more
+                Arnab is a full stack web development student who is detailed
+                oriented, fast-paced, and creative. In his previous experiences,
+                Arnab has excelled in problem-solving, multi-tasking, and more
                 importantly, learned valuable professional and life lessons.
+                Arnab is a self-starter, solution-oriented and believes in
+                continuous development.
                 <br />
                 <br />
                 Gallup Strength:{" "}
@@ -58,7 +59,7 @@ const FlipCart = () => (
               <li> Adobe Creative Suite </li>
               <li> Entrepreneurial, Creative </li>
             </ul>
-            
+
             <img src={touch} alt="LinkedIn Link" className="touchIconStyle" />
           </div>
           <div className="flip-box-back">
