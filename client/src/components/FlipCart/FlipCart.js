@@ -24,7 +24,7 @@ const FlipCart = () => (
               <p className="  center minimize">
                 Arnab is a full stack web developer who is detailed
                 oriented, fast-paced, and creative. In his previous experiences,
-                He has excelled in problem-solving, multi-tasking, and more
+                he has excelled in problem-solving, multi-tasking, and more
                 importantly, learned valuable professional and life lessons.
                 Arnab is a self-starter, solution-oriented and believes in
                 continuous development.
