@@ -22,15 +22,15 @@ const FlipCart = () => (
             <div className="row">
               {/* <p className="col s2 m2  center minimize"/> */}
               <p className="  center minimize">
-                Arnab is a full stack web development student who is detailed
-                oriented, fast-paced, and creative. In his previous experiences,
-                he excelled in problem-solving, multi-tasking, and more
+                Arnab is a full stack web development student who is detail
+                oriented, fast-paced, and creative. In his previous experience,
+                he excelled at problem-solving, multi-tasking, and more
                 importantly, learned valuable professional and life lessons.
                 Arnab is a self-starter, solution-oriented and believes in
                 continuous development.
                 <br />
                 <br />
-                Gallup Strength:{" "}
+                Gallup Strengths:{" "}
                 <b> Futuristic, Ideation, Command, Intellection, Input</b>
                 <ul>
                   <li> Cat Parent</li>
