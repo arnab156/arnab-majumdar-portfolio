@@ -24,4 +24,7 @@
   .titleText {
     font-size: 10px;
   }
+.hider{
+  display: none;
+}
 }

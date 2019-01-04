@@ -56,13 +56,14 @@ class NameForm extends React.Component {
         <div className="card-content">
           <span className="card-title titleText">Email & Resume</span>
           <p className="customText">Please email me for any questions or opportunities that you have or you may also download a copy of my resume.
-            <br/>   To view my portfolio please click on the the portfolio tab below or on the top-right of the screen.
+            <p className="hider">  To view my portfolio please click on the the portfolio tab below or on the top-right of the screen.</p>
           </p>
+          
         </div>
         <div className="card-action ">
           <a className = "black-text" href="mailto:arnab@vendMyT.com<Arnab Majumdar>">Email me</a>
           <a className = "black-text" href={Resume} download>Download Resume</a>
-          <Link className = "black-text" to="/portfolio">Portfolio</Link>
+          <Link className = "black-text hider" to="/portfolio">Portfolio</Link>
         </div>
       </div>
     </div>
