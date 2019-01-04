@@ -1,8 +1,27 @@
 .customText {
-    color: rgb(237, 80, 122);
+  color: rgb(237, 80, 122);
 }
 
-.titleText{
-    color: #99001c;
+.titleText {
+  color: #99001c;
 }
 
+@media only screen and (max-width: 300px) {
+  .customText {
+    font-size: 8px;
+  }
+
+  .titleText {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .customText {
+    font-size: 10px;
+  }
+
+  .titleText {
+    font-size: 10px;
+  }
+}

@@ -17,9 +17,9 @@ const Nav = () => (
       </div>
 
       <div className="titleDivStyle">
-        <a href="/home" className="brand-title">
+        <Link to="/home" className="brand-title">
           Arnab Majumdar
-        </a>
+       </Link>
       </div>
     </nav>
   </div>
