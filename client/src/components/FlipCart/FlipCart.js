@@ -74,7 +74,7 @@ const FlipCart = () => (
             </a>
 
             <a
-              href="https://www.instagram.com/amonticon/"
+              href="https://www.instagram.com/studioarnab/"
               title="Go to instagram"
               target="_blank"
               rel="noopener noreferrer"

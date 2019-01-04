@@ -14,7 +14,7 @@ class Search extends Component {
           <FlipCart />
         {/* </Card> */}
 
-        <Card title="Contact">
+        <Card title="Email & Resume">
           <Link
             to={`/home/contact`}
             role="button"

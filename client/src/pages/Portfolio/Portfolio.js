@@ -11,17 +11,6 @@ class Portfolio extends Component {
       <Container>
         <PortfolioNav button1="Web" button2="Fashion" button3="Paint" />
 
-        {/* <Card title="Contact">
-          <Link to="/portfolio/contact" role="button" className="btn btn-red-color">
-          See More
-          </Link>{" "}
-          <Link
-            to="/portfolio" role="button" className="waves-effect waves-teal btn-flat">
-            Less
-          </Link>
-        
-          <Route exact path="/portfolio/contact" component={Contact} />
-        </Card> */}
       </Container>
     );
   }
