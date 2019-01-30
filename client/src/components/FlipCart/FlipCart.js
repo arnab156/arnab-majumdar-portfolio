@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./FlipCart.css";
 import profileimage from "./profilepic.jpg";
 import insta from "./instagram.png";
@@ -95,6 +96,8 @@ const FlipCart = () => (
             </a>
             <br />
             <br />
+            <button className="waves-effect waves-light btn-small red darken-4"> <Link to="/portfolio" className="white-text">Portfolio</Link></button>
+           
             <br />
             <p>Human Languages: English, Hindi, Bangla</p>
           </div>
