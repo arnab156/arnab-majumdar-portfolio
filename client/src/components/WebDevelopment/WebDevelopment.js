@@ -4,9 +4,7 @@ import reactLogo from "./Images/reactlogo.png";
 import Card from "../Card/card";
 import { Link, Route } from "react-router-dom";
 import MorePortfolio from "./MorePortfolio";
-
-
-
+import github from "../FlipCart/github.png";
 
 const WebProjects = () => (
   <div>
@@ -288,8 +286,24 @@ const WebProjects = () => (
       </div>
 {/* END OF JAMES STEWART DIV */}
 
-    <div className="col s4 m4 center rStyle">2</div>
-  
+
+{/* FIVE */}
+    <div className="col s4 m4 center rStyle">
+    <br /> <br />
+    <h6 className="white-text">See many more projects on my Github</h6>
+    <a
+              href="https://github.com/arnab156/"
+              title="Go to instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={github} alt="github Link" className="thumbnail" />
+            </a>
+            <br />
+    
+    
+    </div>
+{/* end of FIVE   */}
   
 {/* SIX - MADE OF CHICAGO   */}
     <div className="col s4 m4 center pStyle">
