@@ -177,7 +177,8 @@ const WebProjects = () => (
         </div>
       </div>
     </div>
-
+{/* REACT APPS */}
+{/* ONE */}
     <div className="row">
       <div className="col s4 m4 center pStyle" >
         <br /> <br />
@@ -205,11 +206,12 @@ const WebProjects = () => (
             See Github
           </a>{" "}
           <br />
-          
+         
           <h6> Clicky React Game</h6>
         </div>
       </div>
 
+{/* TWO */}
       <div className="col s4 m4 qStyle" >
         <img
           src={reactLogo}
@@ -218,6 +220,8 @@ const WebProjects = () => (
           // style={{ width: "50%", height: "50%", margin: "15% 0% 0% 25%" }}
         />
       </div>
+
+{/* THREE */}
       <div className="col s4 m4 center rStyle" >
         
         <br /><br/>
@@ -246,10 +250,86 @@ const WebProjects = () => (
             See Github{" "}
           </a>
           <br/>   
-          <h6> New York Times & Mongodb Scraper</h6>
+          <h6 className="white-text"> New York Times & Mongodb Scraper</h6>
         </div>
       </div>
+{/* //ROW 2 */}   
+{/* JAMES STEWART DIV */}
+      <div className="col s4 m4 qStyle center" >
+      <br /> <br />
+      <div className="card-action">  
+      <div class="btn1">
+            <a
+              href="http://www.james-stewart.us/"
+              // className="text-color-main"
+              title="Go to James Stewart!"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="white-text">See Website</span>
+            </a>
+
+            <div class="dot" />
+          </div>
+          <a
+            href="https://github.com/arnab156/jamesstewart.git"
+            // className="text-color-main"
+            title="Go to James Stewart!"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            See Github
+          </a>{" "}
+          <br />
+         
+          <h6 className="white-text"> James Stewart CV Website</h6>
+
+          </div>
+      </div>
+{/* END OF JAMES STEWART DIV */}
+
+    <div className="col s4 m4 center rStyle">2</div>
+  
+  
+{/* SIX - MADE OF CHICAGO   */}
+    <div className="col s4 m4 center pStyle">
+    <br /> <br />
+      <div className="card-action">  
+      <div class="btn1">
+            <a
+              href="http://madeofchicago.herokuapp.com/"
+
+              title="Go to Made of Chicago!"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="white-text">See Website</span>
+            </a>
+
+            <div class="dot" />
+          </div>
+          <a
+            href="https://github.com/arnab156/MadeOfChicago.git"
+            title="Go to Made of Chicago!"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            See Github
+          </a>{" "}
+          <br />
+         
+          <h6 className="white-text"> Made Of Chicago Website</h6>
+
+          </div>
+    
+    
     </div>
+{/* end of MADE OF CHICAGO/ */}
+
+    </div>
+{/* END OF REACT APP */}
+
+
     <div className="row">
       <div className="col s12 m6 movement">
         <div className="card ">
