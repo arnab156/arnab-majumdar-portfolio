@@ -76,6 +76,7 @@
   .touchIconStyle{
     height:20px;
   }
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -131,5 +132,13 @@
   }
   .touchIconStyle{
     height:30px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .flip-box {
+    height: 530px;
+    overflow: none;
+    /* float: none; */
   }
 }

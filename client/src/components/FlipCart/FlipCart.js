@@ -18,16 +18,18 @@ const FlipCart = () => (
             <img src={touch} alt="LinkedIn Link" className="touchIconStyle" />
           </div>
           <div className="flip-box-back">
-            <h2>About Me</h2>
+            <h5>Web | Developer | Designer</h5>
             <div className="row">
-              {/* <p className="col s2 m2  center minimize"/> */}
-              <p className="  center minimize">
-                Arnab is a full stack web development student who is detail
-                oriented, fast-paced, and creative. In his previous experience,
-                he excelled at problem-solving, multi-tasking, and more
-                importantly, learned valuable professional and life lessons.
-                Arnab is a self-starter, solution-oriented and believes in
-                continuous development.
+              
+              <p className="center minimize">
+                Arnab is a creator, a thinker, and an ideator who complements his 
+                entrepreneurial spirit with his love for coding. In his previous experience 
+                in academia, fashion and retail, he excelled at problem-solving, multi-tasking, 
+                and more importantly, learned valuable professional and life lessons. 
+                
+                Inherently a solution-oriented person, Arnab is passionate about exploring 
+                more in the area of interaction between artificial intelligence and art.
+
                 <br />
                 <br />
                 Gallup Strengths:{" "}
@@ -47,7 +49,7 @@ const FlipCart = () => (
         <div className="flip-box-inner">
           <div className="flip-box-front mini2">
             <h2>Skills</h2>
-
+            
             <ul>
               <li> HTML5/CSS3</li>
               <li> JavaScript/JQuery</li>
@@ -63,7 +65,8 @@ const FlipCart = () => (
             <img src={touch} alt="LinkedIn Link" className="touchIconStyle" />
           </div>
           <div className="flip-box-back">
-            <h2>Social</h2>
+            <h4>Social</h4>
+            <br/>
             <a
               href="https://www.linkedin.com/in/arnab156/"
               title="Go to LinkedIn"
