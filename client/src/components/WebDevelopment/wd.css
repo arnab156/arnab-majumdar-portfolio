@@ -148,6 +148,9 @@
   .frameStyle{
     display: none;
   }
+  .frameStyle2{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
