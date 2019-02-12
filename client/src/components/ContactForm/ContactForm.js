@@ -1,52 +1,9 @@
 import React from "react";
 import "./contact.css";
-import Resume from "../ContactForm/Arnab-Resume.pdf"
+import Resume from "../ContactForm/Resume-Arnab.pdf"
 import { Link } from "react-router-dom";
 
 class NameForm extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      fullname: "",
-      phone: "",
-      email: "",
-      message: ""
-    };
-
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-
-  handleChange(event) {
-    const target = event.target;
-    const fullname = target.fullname;
-    const email = target.email;
-    const phone = target.phone;
-    const message = target.message;
-
-    this.setState({
-      fullname: fullname,
-      email: email,
-      phone: phone,
-      message: message
-    });
-  }
-
-  handleSubmit(event) {
-    // console.log(event);
-    // alert(
-    //   "your name: " +
-    //     this.state.fullname +
-    //     "  your email: " +
-    //     this.state.email +
-    //     "  your comment: " +
-    //     this.state.message
-    // );
-
-    event.preventDefault();
-    
-  }
-
   render() {
     return (
 

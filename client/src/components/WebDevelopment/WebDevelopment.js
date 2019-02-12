@@ -1,6 +1,5 @@
 import React from "react";
 import "./wd.css";
-import reactLogo from "./Images/reactlogo.png";
 import Card from "../Card/card";
 import { Link, Route } from "react-router-dom";
 import MorePortfolio from "./MorePortfolio";
@@ -139,6 +138,10 @@ const WebProjects = () => (
                 used in not just an office but also at managing front desks at
                 academia, hair salons, spa, restaurant and what not!
               </p>
+              <br/>
+              <p className="center"> Customer Log in credentials: username: <strong>q@q.com</strong> and password: <strong>q</strong></p>
+              <p className="center"> Front-Desk Log in credentials: username: <strong>arnab</strong> and password: <strong>1</strong></p>
+              <p className="center"> Front-Desk Log in credentials: username: <strong>arnab</strong> and password: <strong>2</strong></p>
 
               <p className="center">
                 <br /> <strong>Technologies used:</strong>
@@ -209,16 +212,38 @@ const WebProjects = () => (
         </div>
       </div>
 
-{/* TWO */}
-      <div className="col s4 m4 qStyle" >
-        <img
-          src={reactLogo}
-          alt="React Apps"
-          className="reactLogoStyle"
-          // style={{ width: "50%", height: "50%", margin: "15% 0% 0% 25%" }}
-        />
+{/* TWO SECOND CITY TENNIS */}
+            <div className="col s4 m4 qStyle center" >
+      <br /> <br />
+      <div className="card-action">  
+      <div class="btn1">
+            <a
+              href="http://secondcitytennis.herokuapp.com/"
+              title="Go to Second City Tennis!"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="white-text">See Website</span>
+            </a>
+
+            <div class="dot" />
+          </div>
+          <a
+            href="https://github.com/arnab156/secondCityTennis.git"
+            title="Go to Second City Tennis!"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            See Github
+          </a>{" "}
+          <br />
+         
+          <h6 className="white-text"> Second City Tennis</h6>
+
+          </div>
       </div>
 
+{/* END OF SECOND CITY TENNIS */}
 {/* THREE */}
       <div className="col s4 m4 center rStyle" >
         
@@ -289,7 +314,8 @@ const WebProjects = () => (
 
 {/* FIVE */}
     <div className="col s4 m4 center rStyle">
-    <br /> <br />
+    
+    <h4 className="center white-text"> REACT APPS</h4>
     <h6 className="white-text">See many more projects on my Github</h6>
     <a
               href="https://github.com/arnab156/"
