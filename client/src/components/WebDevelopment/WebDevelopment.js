@@ -187,7 +187,6 @@ const WebProjects = () => (
           <div class="btn1">
             <a
               href="https://arnab156.github.io/my-game/ "
-              // className="text-color-main"
               title="Go to Clicky Game!"
               target="_blank"
               rel="noopener noreferrer"
@@ -199,7 +198,6 @@ const WebProjects = () => (
           </div>
           <a
             href="https://github.com/arnab156/my-game.git"
-            // className="text-color-main"
             title="Go to Click game!"
             target="_blank"
             rel="noopener noreferrer"
@@ -244,6 +242,7 @@ const WebProjects = () => (
       </div>
 
 {/* END OF SECOND CITY TENNIS */}
+
 {/* THREE */}
       <div className="col s4 m4 center rStyle" >
         
@@ -252,7 +251,6 @@ const WebProjects = () => (
           <div class="btn1">
             <a
               href="https://dry-basin-84655.herokuapp.com/"
-              // className="text-color-main"
               title="Go to Nyt scraper!"
               target="_blank"
               rel="noopener noreferrer"
@@ -264,7 +262,6 @@ const WebProjects = () => (
 
           <a
             href="https://github.com/arnab156/reactNYTscraper.git"
-            // className="text-color-main"
             title="Go to Nyt scraper!"
             target="_blank"
             rel="noopener noreferrer"
@@ -284,7 +281,6 @@ const WebProjects = () => (
       <div class="btn1">
             <a
               href="http://www.james-stewart.us/"
-              // className="text-color-main"
               title="Go to James Stewart!"
               target="_blank"
               rel="noopener noreferrer"
@@ -296,7 +292,6 @@ const WebProjects = () => (
           </div>
           <a
             href="https://github.com/arnab156/jamesstewart.git"
-            // className="text-color-main"
             title="Go to James Stewart!"
             target="_blank"
             rel="noopener noreferrer"

@@ -9,11 +9,8 @@ class Search extends Component {
   render() {
     return (
       <Container>
-        {/* <Card> */}
         <br/> <br/>
           <FlipCart />
-        {/* </Card> */}
-
         <Card title="Email & Resume">
           <Link
             to={`/home/contact`}
@@ -31,14 +28,6 @@ class Search extends Component {
           </Link>
           <Route exact path={`/home/contact`} component={Contact} />
         </Card>
-
-
-
-
-
-
-
-
       </Container>
     );
   }
