@@ -8,6 +8,112 @@ import github from "../FlipCart/github.png";
 const WebProjects = () => (
   <div>
     <div className="row">
+    <div className="col s12 l12 movement">
+        <div className="card horizontal ">
+          <div className="card-stacked">
+            <div className="card-content">
+              <h3 className="header storyTitle center">ADAM Front-Desk</h3>
+              <p>
+                ADAM-Desk (Arnab,Don,Andrei,Maryia) is a front-desk application
+                that enables efficient communication between customers,
+                front-desk staff, and service providers. This application can be
+                used in not just an office but also at managing front desks at
+                academia, hair salons, spa, restaurant and what not!
+              </p>
+              <br/>
+              <p className="center"> Customer Log in credentials: username: <strong>q@q.com</strong> and password: <strong>q</strong></p>
+              <p className="center"> Front-Desk Log in credentials: username: <strong>arnab</strong> and password: <strong>1</strong></p>
+              <p className="center"> Front-Desk Log in credentials: username: <strong>arnab</strong> and password: <strong>2</strong></p>
+
+              <p className="center">
+                <br /> <strong>Technologies used:</strong>
+                <br /> Passport Authentication
+                <br /> HTML, CSS
+                <br /> Express, Sequelize and MySQL.
+                <br />
+              </p>
+            </div>
+            <div className="card-action">
+              <a
+                href="https://adamfrontdesk.herokuapp.com/"
+                className="text-color-main"
+                title="Go to ADAM Front-Desk!"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                See Deployed Website{" "}
+              </a>
+
+              <a
+                href="https://github.com/arnab156/Project-2.git"
+                className="text-color-main"
+                title="Go to ADAM Front-Desk!"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                See Github{" "}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+ {/* END OF ADAM FRONT DESK */}
+
+{/* START OF BOOKBUZZ */}
+
+<div className="col s12 l12 movement">
+        <div className="card horizontal ">
+          <div className="card-stacked">
+            <div className="card-content">
+              <h3 className="header storyTitle center">BookBuzz</h3>
+              <p>
+              BookBuzz is an application created for users to find new books to read, save for later, create book clubs and join clubs based on their reading interests. It is a fun interactive app for users to connect with others who share the same interest in books. The inspiration behind this app was to create a platform for book lovers to come together and connect.
+              </p>
+              <br/>
+              <p className="center"> Customer Log in credentials: username: <strong>a@a.com</strong> and password: <strong>BookBuzz1!</strong></p>
+              
+              <p className="center">
+                <br /> <strong>Technologies used:</strong>
+                <br /> AuthO Authentication
+                <br /> MERN Stack
+                <br /> Mongo, Express, React and Node.
+                <br />
+              </p>
+            </div>
+            <div className="card-action">
+              <a
+                href="https://bookbuzz25.herokuapp.com/"
+                className="text-color-main"
+                title="Go to BookBuzz"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                See Deployed Website{" "}
+              </a>
+
+              <a
+                href="https://github.com/arnab156/Bookbuzz"
+                className="text-color-main"
+                title="Go to BookBuzz"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                See Github{" "}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+{/* END OF BOOKBUZZ */}
+
+
+
+
       <div className="col s12 m7 movement">
         <div className="card horizontal ">
           <div className="card-stacked">
@@ -126,57 +232,7 @@ const WebProjects = () => (
       <br /> <br />
       <hr />
       <br />
-      <div className="col s12 l12 movement">
-        <div className="card horizontal ">
-          <div className="card-stacked">
-            <div className="card-content">
-              <h3 className="header storyTitle center">ADAM Front-Desk</h3>
-              <p>
-                ADAM-Desk (Arnab,Don,Andrei,Maryia) is a front-desk application
-                that enables efficient communication between customers,
-                front-desk staff, and service providers. This application can be
-                used in not just an office but also at managing front desks at
-                academia, hair salons, spa, restaurant and what not!
-              </p>
-              <br/>
-              <p className="center"> Customer Log in credentials: username: <strong>q@q.com</strong> and password: <strong>q</strong></p>
-              <p className="center"> Front-Desk Log in credentials: username: <strong>arnab</strong> and password: <strong>1</strong></p>
-              <p className="center"> Front-Desk Log in credentials: username: <strong>arnab</strong> and password: <strong>2</strong></p>
 
-              <p className="center">
-                <br /> <strong>Technologies used:</strong>
-                <br /> Passport Authentication
-                <br /> HTML, CSS
-                <br /> Express, Sequelize and MySQL.
-                <br />
-              </p>
-            </div>
-            <div className="card-action">
-              <a
-                href="https://adamfrontdesk.herokuapp.com/"
-                className="text-color-main"
-                title="Go to ADAM Front-Desk!"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                See Deployed Website{" "}
-              </a>
-
-              <a
-                href="https://github.com/arnab156/Project-2.git"
-                className="text-color-main"
-                title="Go to ADAM Front-Desk!"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                See Github{" "}
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 {/* REACT APPS */}
 {/* ONE */}
