@@ -17,9 +17,9 @@ const Reliance = () => (
                 Reliance Trends Limited
             </h3>
             <p className="col s10 m10 center"> 
-            Innovative marketing campaign at Reliance Trends between 2008-10. Starting from 1st store I was involved in planning and 
-            execution of opening of 4 brands (Performax, Forever18, Tee-Whiz & Pureza), 3 stores (Bangalore-2, Belgaum). Apart from that I was involved in planning 
-            quarterly AOP, seasonal photoshoot, sale promotions, and media purchases. 
+            Innovative marketing campaigns at Reliance Trends between 2008-10 aiming to democratize fashion for all Indians. Starting from 1st store I was involved in planning and 
+            execution of opening of 4 brands (Performax, Forever18, Tee-Whiz & Pureza), 3 stores (Bangalore-2, Belgaum). Apart from that 
+            I was involved in planning quarterly AOP, seasonal photoshoot, sale promotions, and media purchases. Reliance Trends has hundreds of stores across India. 
              </p>
             
             <div className="col s6 m6">
