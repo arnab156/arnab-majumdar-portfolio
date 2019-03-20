@@ -28,6 +28,8 @@ import EOI5 from "./Images/EOI/7.jpg";
 import EOI6 from "./Images/EOI/8.jpg";
 import EOI7 from "./Images/EOI/9.jpg";
 
+import DoomsDay from "./DoomsDay";
+
 const pStyle = {
   color: "rgb(133, 47, 214)"
 };
@@ -439,6 +441,9 @@ export const Fashion = () => (
         
       
     </div>
+
+
+    <DoomsDay/>
   </div>
 );
 
