@@ -29,6 +29,7 @@ import EOI6 from "./Images/EOI/8.jpg";
 import EOI7 from "./Images/EOI/9.jpg";
 
 import DoomsDay from "./DoomsDay";
+import Reliance from "./Reliance";
 
 const pStyle = {
   color: "rgb(133, 47, 214)"
@@ -443,7 +444,8 @@ export const Fashion = () => (
     </div>
 
 
-    <DoomsDay/>
+    <DoomsDay />
+    <Reliance />
   </div>
 );
 
