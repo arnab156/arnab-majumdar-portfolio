@@ -16,32 +16,32 @@ const DoomsDay = () => (
             <h3 className="header center storyTitle">
                 DOOMSDAY SALE CAMPAIGN
             </h3>
-            <p className="col s10 m10 center"> Inspired by current events of that time a sale campaign was created that generated higher website visits and improved sales in the Holiday Season of 2017.</p>
+            <p className="col s12 m12 center"> Inspired by current events of that time a sale campaign was created that generated higher website visits and improved sales in the Holiday Season of 2017.</p>
             <div className="col s4 m4">
-             <img src={DD2} alt="doomsday campaign"/>
-            </div>
-            <div className="col s4 m4">
-             <img src={DD1} alt="doomsday campaign"/>
+             <img src={DD2} className="image-width-100" alt="doomsday campaign"/>
             </div>
             <div className="col s4 m4">
-             <img src={DD6} alt="doomsday campaign"/>
+             <img src={DD1} className="image-width-100" alt="doomsday campaign"/>
             </div>
-            <div className="col s1 m1"></div>
-            <div className="col s5 m5">
-             <img src={DD4} alt="doomsday campaign"/>
+            <div className="col s4 m4">
+             <img src={DD6} className="image-width-100" alt="doomsday campaign"/>
             </div>
-            <div className="col s5 m5">
-             <img src={DD3} alt="doomsday campaign"/>
+        </div>    
+        <div className="row">   
+            <div className="col s4 m4">
+             <img src={DD4} className="image-width-100" alt="doomsday campaign"/>
             </div>
-            <div className="col s1 m1"></div>
-
-            <div className="col s5 m5">
-             <img src={DD5} alt="doomsday campaign"/>
+            <div className="col s4 m4">
+             <img src={DD3} className="image-width-100" alt="doomsday campaign"/>
             </div>
-            <div className="col s5 m5">
-             <img src={DD7} alt="doomsday campaign"/>
+            <div className="col s4 m4">
+             <img src={DD5} className="image-width-100" alt="doomsday campaign"/>
             </div>
-            <div className="col s2 m2"></div>
+            <div className="col s4 m4"></div>
+            <div className="col s4 m4">
+             <img src={DD7} className="image-width-100" alt="doomsday campaign"/>
+            </div>
+            {/* <div className="col s2 m2"></div> */}
 
         </div>
      
